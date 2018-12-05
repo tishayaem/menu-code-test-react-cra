@@ -12,4 +12,8 @@ describe('App', () => {
     expect(app.find('.menu').exists()).toBe(true);
   });
 
+  it('contains a connected Order component', () => {
+    expect(app.find('Order').exists()).toBe(true)
+})
+
 })

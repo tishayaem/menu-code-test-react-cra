@@ -1,13 +1,14 @@
 import React from 'react';
 import data from './menu-data.json';
 import SelectDish from './SelectDish';
-
+import Order from './Order';
 export default class App extends React.Component {
   constructor() {
     super();
     this.state = {
       menu: {},
-      currentOrder: {}
+      currentOrder: {},
+      order: {}
     };
   }
 
@@ -25,10 +26,22 @@ export default class App extends React.Component {
     this.setState({ currentOrder });
   };
 
+  handleSubmit = event => {
+    event.preventDefault();
+
+    let order = this.state.currentOrder;
+    this.setState({ order, currentOrder: {} });
+  };
+
   render() {
     return (
       <div className="App">
-        <SelectDish menu={this.state.menu} handleRadio={this.handleRadio} />
+        <SelectDish
+          menu={this.state.menu}
+          handleRadio={this.handleRadio}
+          handleSubmit={this.handleSubmit}
+        />
+        <Order currentOrder={this.state.currentOrder} />
       </div>
     );
   }

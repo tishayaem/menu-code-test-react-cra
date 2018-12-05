@@ -17,1574 +17,179 @@ ShallowWrapper {
     "key": undefined,
     "nodeType": "host",
     "props": Object {
-      "children": <div
-        className="menu"
-      >
-        <form>
-          <fieldset>
-            <legend>
-              STARTERS
-            </legend>
-            <div>
-              <label
-                htmlFor="menu"
-              >
-                <input
-                  className="Soup"
-                  name="starters"
-                  onChange={[Function]}
-                  type="radio"
-                  value="Soup"
-                />
-                Soup
-              </label>
-            </div>
-            <div>
-              <label
-                htmlFor="menu"
-              >
-                <input
-                  className="Pâté"
-                  name="starters"
-                  onChange={[Function]}
-                  type="radio"
-                  value="Pâté"
-                />
-                Pâté
-              </label>
-            </div>
-            <div>
-              <label
-                htmlFor="menu"
-              >
-                <input
-                  className="Bruschetta"
-                  name="starters"
-                  onChange={[Function]}
-                  type="radio"
-                  value="Bruschetta"
-                />
-                Bruschetta
-              </label>
-            </div>
-            <div>
-              <label
-                htmlFor="menu"
-              >
-                <input
-                  className="Prawn cocktail"
-                  name="starters"
-                  onChange={[Function]}
-                  type="radio"
-                  value="Prawn cocktail"
-                />
-                Prawn cocktail
-              </label>
-            </div>
-          </fieldset>
-          <fieldset>
-            <legend>
-              MAINS
-            </legend>
-            <div>
-              <label
-                htmlFor="menu"
-              >
-                <input
-                  className="Steak"
-                  name="mains"
-                  onChange={[Function]}
-                  type="radio"
-                  value="Steak"
-                />
-                Steak
-              </label>
-            </div>
-            <div>
-              <label
-                htmlFor="menu"
-              >
-                <input
-                  className="Meatballs"
-                  name="mains"
-                  onChange={[Function]}
-                  type="radio"
-                  value="Meatballs"
-                />
-                Meatballs
-              </label>
-            </div>
-            <div>
-              <label
-                htmlFor="menu"
-              >
-                <input
-                  className="Salmon fillet"
-                  name="mains"
-                  onChange={[Function]}
-                  type="radio"
-                  value="Salmon fillet"
-                />
-                Salmon fillet
-              </label>
-            </div>
-            <div>
-              <label
-                htmlFor="menu"
-              >
-                <input
-                  className="Vegetarian lasagna"
-                  name="mains"
-                  onChange={[Function]}
-                  type="radio"
-                  value="Vegetarian lasagna"
-                />
-                Vegetarian lasagna
-              </label>
-            </div>
-          </fieldset>
-          <fieldset>
-            <legend>
-              DESSERTS
-            </legend>
-            <div>
-              <label
-                htmlFor="menu"
-              >
-                <input
-                  className="Sticky toffee"
-                  name="desserts"
-                  onChange={[Function]}
-                  type="radio"
-                  value="Sticky toffee"
-                />
-                Sticky toffee
-              </label>
-            </div>
-            <div>
-              <label
-                htmlFor="menu"
-              >
-                <input
-                  className="Tiramisu"
-                  name="desserts"
-                  onChange={[Function]}
-                  type="radio"
-                  value="Tiramisu"
-                />
-                Tiramisu
-              </label>
-            </div>
-            <div>
-              <label
-                htmlFor="menu"
-              >
-                <input
-                  className="Cheesecake"
-                  name="desserts"
-                  onChange={[Function]}
-                  type="radio"
-                  value="Cheesecake"
-                />
-                Cheesecake
-              </label>
-            </div>
-            <div>
-              <label
-                htmlFor="menu"
-              >
-                <input
-                  className="Ice cream"
-                  name="desserts"
-                  onChange={[Function]}
-                  type="radio"
-                  value="Ice cream"
-                />
-                Ice cream
-              </label>
-            </div>
-          </fieldset>
-          <button>
-            Submit
-          </button>
-        </form>
-      </div>,
+      "children": Array [
+        <SelectDish
+          handleRadio={[Function]}
+          menu={
+            Object {
+              "desserts": Array [
+                Object {
+                  "id": 9,
+                  "name": "Sticky toffee",
+                  "price": 18,
+                },
+                Object {
+                  "id": 10,
+                  "name": "Tiramisu",
+                  "price": 4.5,
+                },
+                Object {
+                  "id": 11,
+                  "name": "Cheesecake",
+                  "price": 4,
+                },
+                Object {
+                  "id": 12,
+                  "name": "Ice cream",
+                  "price": 3.5,
+                },
+              ],
+              "mains": Array [
+                Object {
+                  "id": 5,
+                  "name": "Steak",
+                  "price": 18,
+                },
+                Object {
+                  "id": 6,
+                  "name": "Meatballs",
+                  "price": 11.5,
+                },
+                Object {
+                  "id": 7,
+                  "name": "Salmon fillet",
+                  "price": 14,
+                },
+                Object {
+                  "id": 8,
+                  "name": "Vegetarian lasagna",
+                  "price": 12,
+                },
+              ],
+              "starters": Array [
+                Object {
+                  "id": 1,
+                  "name": "Soup",
+                  "price": 3,
+                },
+                Object {
+                  "id": 2,
+                  "name": "Pâté",
+                  "price": 5,
+                },
+                Object {
+                  "id": 3,
+                  "name": "Bruschetta",
+                  "price": 4.5,
+                },
+                Object {
+                  "id": 4,
+                  "name": "Prawn cocktail",
+                  "price": 6,
+                },
+              ],
+            }
+          }
+        />,
+        <Order
+          currentOrder={Object {}}
+        />,
+      ],
       "className": "App",
     },
     "ref": null,
-    "rendered": Object {
-      "instance": null,
-      "key": undefined,
-      "nodeType": "host",
-      "props": Object {
-        "children": <form>
-          <fieldset>
-            <legend>
-              STARTERS
-            </legend>
-            <div>
-              <label
-                htmlFor="menu"
-              >
-                <input
-                  className="Soup"
-                  name="starters"
-                  onChange={[Function]}
-                  type="radio"
-                  value="Soup"
-                />
-                Soup
-              </label>
-            </div>
-            <div>
-              <label
-                htmlFor="menu"
-              >
-                <input
-                  className="Pâté"
-                  name="starters"
-                  onChange={[Function]}
-                  type="radio"
-                  value="Pâté"
-                />
-                Pâté
-              </label>
-            </div>
-            <div>
-              <label
-                htmlFor="menu"
-              >
-                <input
-                  className="Bruschetta"
-                  name="starters"
-                  onChange={[Function]}
-                  type="radio"
-                  value="Bruschetta"
-                />
-                Bruschetta
-              </label>
-            </div>
-            <div>
-              <label
-                htmlFor="menu"
-              >
-                <input
-                  className="Prawn cocktail"
-                  name="starters"
-                  onChange={[Function]}
-                  type="radio"
-                  value="Prawn cocktail"
-                />
-                Prawn cocktail
-              </label>
-            </div>
-          </fieldset>
-          <fieldset>
-            <legend>
-              MAINS
-            </legend>
-            <div>
-              <label
-                htmlFor="menu"
-              >
-                <input
-                  className="Steak"
-                  name="mains"
-                  onChange={[Function]}
-                  type="radio"
-                  value="Steak"
-                />
-                Steak
-              </label>
-            </div>
-            <div>
-              <label
-                htmlFor="menu"
-              >
-                <input
-                  className="Meatballs"
-                  name="mains"
-                  onChange={[Function]}
-                  type="radio"
-                  value="Meatballs"
-                />
-                Meatballs
-              </label>
-            </div>
-            <div>
-              <label
-                htmlFor="menu"
-              >
-                <input
-                  className="Salmon fillet"
-                  name="mains"
-                  onChange={[Function]}
-                  type="radio"
-                  value="Salmon fillet"
-                />
-                Salmon fillet
-              </label>
-            </div>
-            <div>
-              <label
-                htmlFor="menu"
-              >
-                <input
-                  className="Vegetarian lasagna"
-                  name="mains"
-                  onChange={[Function]}
-                  type="radio"
-                  value="Vegetarian lasagna"
-                />
-                Vegetarian lasagna
-              </label>
-            </div>
-          </fieldset>
-          <fieldset>
-            <legend>
-              DESSERTS
-            </legend>
-            <div>
-              <label
-                htmlFor="menu"
-              >
-                <input
-                  className="Sticky toffee"
-                  name="desserts"
-                  onChange={[Function]}
-                  type="radio"
-                  value="Sticky toffee"
-                />
-                Sticky toffee
-              </label>
-            </div>
-            <div>
-              <label
-                htmlFor="menu"
-              >
-                <input
-                  className="Tiramisu"
-                  name="desserts"
-                  onChange={[Function]}
-                  type="radio"
-                  value="Tiramisu"
-                />
-                Tiramisu
-              </label>
-            </div>
-            <div>
-              <label
-                htmlFor="menu"
-              >
-                <input
-                  className="Cheesecake"
-                  name="desserts"
-                  onChange={[Function]}
-                  type="radio"
-                  value="Cheesecake"
-                />
-                Cheesecake
-              </label>
-            </div>
-            <div>
-              <label
-                htmlFor="menu"
-              >
-                <input
-                  className="Ice cream"
-                  name="desserts"
-                  onChange={[Function]}
-                  type="radio"
-                  value="Ice cream"
-                />
-                Ice cream
-              </label>
-            </div>
-          </fieldset>
-          <button>
-            Submit
-          </button>
-        </form>,
-        "className": "menu",
-      },
-      "ref": null,
-      "rendered": Object {
+    "rendered": Array [
+      Object {
         "instance": null,
         "key": undefined,
-        "nodeType": "host",
+        "nodeType": "function",
         "props": Object {
-          "children": Array [
-            Array [
-              <fieldset>
-                <legend>
-                  STARTERS
-                </legend>
-                <div>
-                  <label
-                    htmlFor="menu"
-                  >
-                    <input
-                      className="Soup"
-                      name="starters"
-                      onChange={[Function]}
-                      type="radio"
-                      value="Soup"
-                    />
-                    Soup
-                  </label>
-                </div>
-                <div>
-                  <label
-                    htmlFor="menu"
-                  >
-                    <input
-                      className="Pâté"
-                      name="starters"
-                      onChange={[Function]}
-                      type="radio"
-                      value="Pâté"
-                    />
-                    Pâté
-                  </label>
-                </div>
-                <div>
-                  <label
-                    htmlFor="menu"
-                  >
-                    <input
-                      className="Bruschetta"
-                      name="starters"
-                      onChange={[Function]}
-                      type="radio"
-                      value="Bruschetta"
-                    />
-                    Bruschetta
-                  </label>
-                </div>
-                <div>
-                  <label
-                    htmlFor="menu"
-                  >
-                    <input
-                      className="Prawn cocktail"
-                      name="starters"
-                      onChange={[Function]}
-                      type="radio"
-                      value="Prawn cocktail"
-                    />
-                    Prawn cocktail
-                  </label>
-                </div>
-              </fieldset>,
-              <fieldset>
-                <legend>
-                  MAINS
-                </legend>
-                <div>
-                  <label
-                    htmlFor="menu"
-                  >
-                    <input
-                      className="Steak"
-                      name="mains"
-                      onChange={[Function]}
-                      type="radio"
-                      value="Steak"
-                    />
-                    Steak
-                  </label>
-                </div>
-                <div>
-                  <label
-                    htmlFor="menu"
-                  >
-                    <input
-                      className="Meatballs"
-                      name="mains"
-                      onChange={[Function]}
-                      type="radio"
-                      value="Meatballs"
-                    />
-                    Meatballs
-                  </label>
-                </div>
-                <div>
-                  <label
-                    htmlFor="menu"
-                  >
-                    <input
-                      className="Salmon fillet"
-                      name="mains"
-                      onChange={[Function]}
-                      type="radio"
-                      value="Salmon fillet"
-                    />
-                    Salmon fillet
-                  </label>
-                </div>
-                <div>
-                  <label
-                    htmlFor="menu"
-                  >
-                    <input
-                      className="Vegetarian lasagna"
-                      name="mains"
-                      onChange={[Function]}
-                      type="radio"
-                      value="Vegetarian lasagna"
-                    />
-                    Vegetarian lasagna
-                  </label>
-                </div>
-              </fieldset>,
-              <fieldset>
-                <legend>
-                  DESSERTS
-                </legend>
-                <div>
-                  <label
-                    htmlFor="menu"
-                  >
-                    <input
-                      className="Sticky toffee"
-                      name="desserts"
-                      onChange={[Function]}
-                      type="radio"
-                      value="Sticky toffee"
-                    />
-                    Sticky toffee
-                  </label>
-                </div>
-                <div>
-                  <label
-                    htmlFor="menu"
-                  >
-                    <input
-                      className="Tiramisu"
-                      name="desserts"
-                      onChange={[Function]}
-                      type="radio"
-                      value="Tiramisu"
-                    />
-                    Tiramisu
-                  </label>
-                </div>
-                <div>
-                  <label
-                    htmlFor="menu"
-                  >
-                    <input
-                      className="Cheesecake"
-                      name="desserts"
-                      onChange={[Function]}
-                      type="radio"
-                      value="Cheesecake"
-                    />
-                    Cheesecake
-                  </label>
-                </div>
-                <div>
-                  <label
-                    htmlFor="menu"
-                  >
-                    <input
-                      className="Ice cream"
-                      name="desserts"
-                      onChange={[Function]}
-                      type="radio"
-                      value="Ice cream"
-                    />
-                    Ice cream
-                  </label>
-                </div>
-              </fieldset>,
+          "handleRadio": [Function],
+          "menu": Object {
+            "desserts": Array [
+              Object {
+                "id": 9,
+                "name": "Sticky toffee",
+                "price": 18,
+              },
+              Object {
+                "id": 10,
+                "name": "Tiramisu",
+                "price": 4.5,
+              },
+              Object {
+                "id": 11,
+                "name": "Cheesecake",
+                "price": 4,
+              },
+              Object {
+                "id": 12,
+                "name": "Ice cream",
+                "price": 3.5,
+              },
             ],
-            <button>
-              Submit
-            </button>,
-          ],
+            "mains": Array [
+              Object {
+                "id": 5,
+                "name": "Steak",
+                "price": 18,
+              },
+              Object {
+                "id": 6,
+                "name": "Meatballs",
+                "price": 11.5,
+              },
+              Object {
+                "id": 7,
+                "name": "Salmon fillet",
+                "price": 14,
+              },
+              Object {
+                "id": 8,
+                "name": "Vegetarian lasagna",
+                "price": 12,
+              },
+            ],
+            "starters": Array [
+              Object {
+                "id": 1,
+                "name": "Soup",
+                "price": 3,
+              },
+              Object {
+                "id": 2,
+                "name": "Pâté",
+                "price": 5,
+              },
+              Object {
+                "id": 3,
+                "name": "Bruschetta",
+                "price": 4.5,
+              },
+              Object {
+                "id": 4,
+                "name": "Prawn cocktail",
+                "price": 6,
+              },
+            ],
+          },
         },
         "ref": null,
-        "rendered": Array [
-          Object {
-            "instance": null,
-            "key": "starters",
-            "nodeType": "host",
-            "props": Object {
-              "children": Array [
-                <legend>
-                  STARTERS
-                </legend>,
-                Array [
-                  <div>
-                    <label
-                      htmlFor="menu"
-                    >
-                      <input
-                        className="Soup"
-                        name="starters"
-                        onChange={[Function]}
-                        type="radio"
-                        value="Soup"
-                      />
-                      Soup
-                    </label>
-                  </div>,
-                  <div>
-                    <label
-                      htmlFor="menu"
-                    >
-                      <input
-                        className="Pâté"
-                        name="starters"
-                        onChange={[Function]}
-                        type="radio"
-                        value="Pâté"
-                      />
-                      Pâté
-                    </label>
-                  </div>,
-                  <div>
-                    <label
-                      htmlFor="menu"
-                    >
-                      <input
-                        className="Bruschetta"
-                        name="starters"
-                        onChange={[Function]}
-                        type="radio"
-                        value="Bruschetta"
-                      />
-                      Bruschetta
-                    </label>
-                  </div>,
-                  <div>
-                    <label
-                      htmlFor="menu"
-                    >
-                      <input
-                        className="Prawn cocktail"
-                        name="starters"
-                        onChange={[Function]}
-                        type="radio"
-                        value="Prawn cocktail"
-                      />
-                      Prawn cocktail
-                    </label>
-                  </div>,
-                ],
-              ],
-            },
-            "ref": null,
-            "rendered": Array [
-              Object {
-                "instance": null,
-                "key": undefined,
-                "nodeType": "host",
-                "props": Object {
-                  "children": "STARTERS",
-                },
-                "ref": null,
-                "rendered": "STARTERS",
-                "type": "legend",
-              },
-              Object {
-                "instance": null,
-                "key": undefined,
-                "nodeType": "host",
-                "props": Object {
-                  "children": <label
-                    htmlFor="menu"
-                  >
-                    <input
-                      className="Soup"
-                      name="starters"
-                      onChange={[Function]}
-                      type="radio"
-                      value="Soup"
-                    />
-                    Soup
-                  </label>,
-                },
-                "ref": null,
-                "rendered": Object {
-                  "instance": null,
-                  "key": "1",
-                  "nodeType": "host",
-                  "props": Object {
-                    "children": Array [
-                      <input
-                        className="Soup"
-                        name="starters"
-                        onChange={[Function]}
-                        type="radio"
-                        value="Soup"
-                      />,
-                      "Soup",
-                    ],
-                    "htmlFor": "menu",
-                  },
-                  "ref": null,
-                  "rendered": Array [
-                    Object {
-                      "instance": null,
-                      "key": "1",
-                      "nodeType": "host",
-                      "props": Object {
-                        "className": "Soup",
-                        "name": "starters",
-                        "onChange": [Function],
-                        "type": "radio",
-                        "value": "Soup",
-                      },
-                      "ref": null,
-                      "rendered": null,
-                      "type": "input",
-                    },
-                    "Soup",
-                  ],
-                  "type": "label",
-                },
-                "type": "div",
-              },
-              Object {
-                "instance": null,
-                "key": undefined,
-                "nodeType": "host",
-                "props": Object {
-                  "children": <label
-                    htmlFor="menu"
-                  >
-                    <input
-                      className="Pâté"
-                      name="starters"
-                      onChange={[Function]}
-                      type="radio"
-                      value="Pâté"
-                    />
-                    Pâté
-                  </label>,
-                },
-                "ref": null,
-                "rendered": Object {
-                  "instance": null,
-                  "key": "2",
-                  "nodeType": "host",
-                  "props": Object {
-                    "children": Array [
-                      <input
-                        className="Pâté"
-                        name="starters"
-                        onChange={[Function]}
-                        type="radio"
-                        value="Pâté"
-                      />,
-                      "Pâté",
-                    ],
-                    "htmlFor": "menu",
-                  },
-                  "ref": null,
-                  "rendered": Array [
-                    Object {
-                      "instance": null,
-                      "key": "2",
-                      "nodeType": "host",
-                      "props": Object {
-                        "className": "Pâté",
-                        "name": "starters",
-                        "onChange": [Function],
-                        "type": "radio",
-                        "value": "Pâté",
-                      },
-                      "ref": null,
-                      "rendered": null,
-                      "type": "input",
-                    },
-                    "Pâté",
-                  ],
-                  "type": "label",
-                },
-                "type": "div",
-              },
-              Object {
-                "instance": null,
-                "key": undefined,
-                "nodeType": "host",
-                "props": Object {
-                  "children": <label
-                    htmlFor="menu"
-                  >
-                    <input
-                      className="Bruschetta"
-                      name="starters"
-                      onChange={[Function]}
-                      type="radio"
-                      value="Bruschetta"
-                    />
-                    Bruschetta
-                  </label>,
-                },
-                "ref": null,
-                "rendered": Object {
-                  "instance": null,
-                  "key": "3",
-                  "nodeType": "host",
-                  "props": Object {
-                    "children": Array [
-                      <input
-                        className="Bruschetta"
-                        name="starters"
-                        onChange={[Function]}
-                        type="radio"
-                        value="Bruschetta"
-                      />,
-                      "Bruschetta",
-                    ],
-                    "htmlFor": "menu",
-                  },
-                  "ref": null,
-                  "rendered": Array [
-                    Object {
-                      "instance": null,
-                      "key": "3",
-                      "nodeType": "host",
-                      "props": Object {
-                        "className": "Bruschetta",
-                        "name": "starters",
-                        "onChange": [Function],
-                        "type": "radio",
-                        "value": "Bruschetta",
-                      },
-                      "ref": null,
-                      "rendered": null,
-                      "type": "input",
-                    },
-                    "Bruschetta",
-                  ],
-                  "type": "label",
-                },
-                "type": "div",
-              },
-              Object {
-                "instance": null,
-                "key": undefined,
-                "nodeType": "host",
-                "props": Object {
-                  "children": <label
-                    htmlFor="menu"
-                  >
-                    <input
-                      className="Prawn cocktail"
-                      name="starters"
-                      onChange={[Function]}
-                      type="radio"
-                      value="Prawn cocktail"
-                    />
-                    Prawn cocktail
-                  </label>,
-                },
-                "ref": null,
-                "rendered": Object {
-                  "instance": null,
-                  "key": "4",
-                  "nodeType": "host",
-                  "props": Object {
-                    "children": Array [
-                      <input
-                        className="Prawn cocktail"
-                        name="starters"
-                        onChange={[Function]}
-                        type="radio"
-                        value="Prawn cocktail"
-                      />,
-                      "Prawn cocktail",
-                    ],
-                    "htmlFor": "menu",
-                  },
-                  "ref": null,
-                  "rendered": Array [
-                    Object {
-                      "instance": null,
-                      "key": "4",
-                      "nodeType": "host",
-                      "props": Object {
-                        "className": "Prawn cocktail",
-                        "name": "starters",
-                        "onChange": [Function],
-                        "type": "radio",
-                        "value": "Prawn cocktail",
-                      },
-                      "ref": null,
-                      "rendered": null,
-                      "type": "input",
-                    },
-                    "Prawn cocktail",
-                  ],
-                  "type": "label",
-                },
-                "type": "div",
-              },
-            ],
-            "type": "fieldset",
-          },
-          Object {
-            "instance": null,
-            "key": "mains",
-            "nodeType": "host",
-            "props": Object {
-              "children": Array [
-                <legend>
-                  MAINS
-                </legend>,
-                Array [
-                  <div>
-                    <label
-                      htmlFor="menu"
-                    >
-                      <input
-                        className="Steak"
-                        name="mains"
-                        onChange={[Function]}
-                        type="radio"
-                        value="Steak"
-                      />
-                      Steak
-                    </label>
-                  </div>,
-                  <div>
-                    <label
-                      htmlFor="menu"
-                    >
-                      <input
-                        className="Meatballs"
-                        name="mains"
-                        onChange={[Function]}
-                        type="radio"
-                        value="Meatballs"
-                      />
-                      Meatballs
-                    </label>
-                  </div>,
-                  <div>
-                    <label
-                      htmlFor="menu"
-                    >
-                      <input
-                        className="Salmon fillet"
-                        name="mains"
-                        onChange={[Function]}
-                        type="radio"
-                        value="Salmon fillet"
-                      />
-                      Salmon fillet
-                    </label>
-                  </div>,
-                  <div>
-                    <label
-                      htmlFor="menu"
-                    >
-                      <input
-                        className="Vegetarian lasagna"
-                        name="mains"
-                        onChange={[Function]}
-                        type="radio"
-                        value="Vegetarian lasagna"
-                      />
-                      Vegetarian lasagna
-                    </label>
-                  </div>,
-                ],
-              ],
-            },
-            "ref": null,
-            "rendered": Array [
-              Object {
-                "instance": null,
-                "key": undefined,
-                "nodeType": "host",
-                "props": Object {
-                  "children": "MAINS",
-                },
-                "ref": null,
-                "rendered": "MAINS",
-                "type": "legend",
-              },
-              Object {
-                "instance": null,
-                "key": undefined,
-                "nodeType": "host",
-                "props": Object {
-                  "children": <label
-                    htmlFor="menu"
-                  >
-                    <input
-                      className="Steak"
-                      name="mains"
-                      onChange={[Function]}
-                      type="radio"
-                      value="Steak"
-                    />
-                    Steak
-                  </label>,
-                },
-                "ref": null,
-                "rendered": Object {
-                  "instance": null,
-                  "key": "5",
-                  "nodeType": "host",
-                  "props": Object {
-                    "children": Array [
-                      <input
-                        className="Steak"
-                        name="mains"
-                        onChange={[Function]}
-                        type="radio"
-                        value="Steak"
-                      />,
-                      "Steak",
-                    ],
-                    "htmlFor": "menu",
-                  },
-                  "ref": null,
-                  "rendered": Array [
-                    Object {
-                      "instance": null,
-                      "key": "5",
-                      "nodeType": "host",
-                      "props": Object {
-                        "className": "Steak",
-                        "name": "mains",
-                        "onChange": [Function],
-                        "type": "radio",
-                        "value": "Steak",
-                      },
-                      "ref": null,
-                      "rendered": null,
-                      "type": "input",
-                    },
-                    "Steak",
-                  ],
-                  "type": "label",
-                },
-                "type": "div",
-              },
-              Object {
-                "instance": null,
-                "key": undefined,
-                "nodeType": "host",
-                "props": Object {
-                  "children": <label
-                    htmlFor="menu"
-                  >
-                    <input
-                      className="Meatballs"
-                      name="mains"
-                      onChange={[Function]}
-                      type="radio"
-                      value="Meatballs"
-                    />
-                    Meatballs
-                  </label>,
-                },
-                "ref": null,
-                "rendered": Object {
-                  "instance": null,
-                  "key": "6",
-                  "nodeType": "host",
-                  "props": Object {
-                    "children": Array [
-                      <input
-                        className="Meatballs"
-                        name="mains"
-                        onChange={[Function]}
-                        type="radio"
-                        value="Meatballs"
-                      />,
-                      "Meatballs",
-                    ],
-                    "htmlFor": "menu",
-                  },
-                  "ref": null,
-                  "rendered": Array [
-                    Object {
-                      "instance": null,
-                      "key": "6",
-                      "nodeType": "host",
-                      "props": Object {
-                        "className": "Meatballs",
-                        "name": "mains",
-                        "onChange": [Function],
-                        "type": "radio",
-                        "value": "Meatballs",
-                      },
-                      "ref": null,
-                      "rendered": null,
-                      "type": "input",
-                    },
-                    "Meatballs",
-                  ],
-                  "type": "label",
-                },
-                "type": "div",
-              },
-              Object {
-                "instance": null,
-                "key": undefined,
-                "nodeType": "host",
-                "props": Object {
-                  "children": <label
-                    htmlFor="menu"
-                  >
-                    <input
-                      className="Salmon fillet"
-                      name="mains"
-                      onChange={[Function]}
-                      type="radio"
-                      value="Salmon fillet"
-                    />
-                    Salmon fillet
-                  </label>,
-                },
-                "ref": null,
-                "rendered": Object {
-                  "instance": null,
-                  "key": "7",
-                  "nodeType": "host",
-                  "props": Object {
-                    "children": Array [
-                      <input
-                        className="Salmon fillet"
-                        name="mains"
-                        onChange={[Function]}
-                        type="radio"
-                        value="Salmon fillet"
-                      />,
-                      "Salmon fillet",
-                    ],
-                    "htmlFor": "menu",
-                  },
-                  "ref": null,
-                  "rendered": Array [
-                    Object {
-                      "instance": null,
-                      "key": "7",
-                      "nodeType": "host",
-                      "props": Object {
-                        "className": "Salmon fillet",
-                        "name": "mains",
-                        "onChange": [Function],
-                        "type": "radio",
-                        "value": "Salmon fillet",
-                      },
-                      "ref": null,
-                      "rendered": null,
-                      "type": "input",
-                    },
-                    "Salmon fillet",
-                  ],
-                  "type": "label",
-                },
-                "type": "div",
-              },
-              Object {
-                "instance": null,
-                "key": undefined,
-                "nodeType": "host",
-                "props": Object {
-                  "children": <label
-                    htmlFor="menu"
-                  >
-                    <input
-                      className="Vegetarian lasagna"
-                      name="mains"
-                      onChange={[Function]}
-                      type="radio"
-                      value="Vegetarian lasagna"
-                    />
-                    Vegetarian lasagna
-                  </label>,
-                },
-                "ref": null,
-                "rendered": Object {
-                  "instance": null,
-                  "key": "8",
-                  "nodeType": "host",
-                  "props": Object {
-                    "children": Array [
-                      <input
-                        className="Vegetarian lasagna"
-                        name="mains"
-                        onChange={[Function]}
-                        type="radio"
-                        value="Vegetarian lasagna"
-                      />,
-                      "Vegetarian lasagna",
-                    ],
-                    "htmlFor": "menu",
-                  },
-                  "ref": null,
-                  "rendered": Array [
-                    Object {
-                      "instance": null,
-                      "key": "8",
-                      "nodeType": "host",
-                      "props": Object {
-                        "className": "Vegetarian lasagna",
-                        "name": "mains",
-                        "onChange": [Function],
-                        "type": "radio",
-                        "value": "Vegetarian lasagna",
-                      },
-                      "ref": null,
-                      "rendered": null,
-                      "type": "input",
-                    },
-                    "Vegetarian lasagna",
-                  ],
-                  "type": "label",
-                },
-                "type": "div",
-              },
-            ],
-            "type": "fieldset",
-          },
-          Object {
-            "instance": null,
-            "key": "desserts",
-            "nodeType": "host",
-            "props": Object {
-              "children": Array [
-                <legend>
-                  DESSERTS
-                </legend>,
-                Array [
-                  <div>
-                    <label
-                      htmlFor="menu"
-                    >
-                      <input
-                        className="Sticky toffee"
-                        name="desserts"
-                        onChange={[Function]}
-                        type="radio"
-                        value="Sticky toffee"
-                      />
-                      Sticky toffee
-                    </label>
-                  </div>,
-                  <div>
-                    <label
-                      htmlFor="menu"
-                    >
-                      <input
-                        className="Tiramisu"
-                        name="desserts"
-                        onChange={[Function]}
-                        type="radio"
-                        value="Tiramisu"
-                      />
-                      Tiramisu
-                    </label>
-                  </div>,
-                  <div>
-                    <label
-                      htmlFor="menu"
-                    >
-                      <input
-                        className="Cheesecake"
-                        name="desserts"
-                        onChange={[Function]}
-                        type="radio"
-                        value="Cheesecake"
-                      />
-                      Cheesecake
-                    </label>
-                  </div>,
-                  <div>
-                    <label
-                      htmlFor="menu"
-                    >
-                      <input
-                        className="Ice cream"
-                        name="desserts"
-                        onChange={[Function]}
-                        type="radio"
-                        value="Ice cream"
-                      />
-                      Ice cream
-                    </label>
-                  </div>,
-                ],
-              ],
-            },
-            "ref": null,
-            "rendered": Array [
-              Object {
-                "instance": null,
-                "key": undefined,
-                "nodeType": "host",
-                "props": Object {
-                  "children": "DESSERTS",
-                },
-                "ref": null,
-                "rendered": "DESSERTS",
-                "type": "legend",
-              },
-              Object {
-                "instance": null,
-                "key": undefined,
-                "nodeType": "host",
-                "props": Object {
-                  "children": <label
-                    htmlFor="menu"
-                  >
-                    <input
-                      className="Sticky toffee"
-                      name="desserts"
-                      onChange={[Function]}
-                      type="radio"
-                      value="Sticky toffee"
-                    />
-                    Sticky toffee
-                  </label>,
-                },
-                "ref": null,
-                "rendered": Object {
-                  "instance": null,
-                  "key": "9",
-                  "nodeType": "host",
-                  "props": Object {
-                    "children": Array [
-                      <input
-                        className="Sticky toffee"
-                        name="desserts"
-                        onChange={[Function]}
-                        type="radio"
-                        value="Sticky toffee"
-                      />,
-                      "Sticky toffee",
-                    ],
-                    "htmlFor": "menu",
-                  },
-                  "ref": null,
-                  "rendered": Array [
-                    Object {
-                      "instance": null,
-                      "key": "9",
-                      "nodeType": "host",
-                      "props": Object {
-                        "className": "Sticky toffee",
-                        "name": "desserts",
-                        "onChange": [Function],
-                        "type": "radio",
-                        "value": "Sticky toffee",
-                      },
-                      "ref": null,
-                      "rendered": null,
-                      "type": "input",
-                    },
-                    "Sticky toffee",
-                  ],
-                  "type": "label",
-                },
-                "type": "div",
-              },
-              Object {
-                "instance": null,
-                "key": undefined,
-                "nodeType": "host",
-                "props": Object {
-                  "children": <label
-                    htmlFor="menu"
-                  >
-                    <input
-                      className="Tiramisu"
-                      name="desserts"
-                      onChange={[Function]}
-                      type="radio"
-                      value="Tiramisu"
-                    />
-                    Tiramisu
-                  </label>,
-                },
-                "ref": null,
-                "rendered": Object {
-                  "instance": null,
-                  "key": "10",
-                  "nodeType": "host",
-                  "props": Object {
-                    "children": Array [
-                      <input
-                        className="Tiramisu"
-                        name="desserts"
-                        onChange={[Function]}
-                        type="radio"
-                        value="Tiramisu"
-                      />,
-                      "Tiramisu",
-                    ],
-                    "htmlFor": "menu",
-                  },
-                  "ref": null,
-                  "rendered": Array [
-                    Object {
-                      "instance": null,
-                      "key": "10",
-                      "nodeType": "host",
-                      "props": Object {
-                        "className": "Tiramisu",
-                        "name": "desserts",
-                        "onChange": [Function],
-                        "type": "radio",
-                        "value": "Tiramisu",
-                      },
-                      "ref": null,
-                      "rendered": null,
-                      "type": "input",
-                    },
-                    "Tiramisu",
-                  ],
-                  "type": "label",
-                },
-                "type": "div",
-              },
-              Object {
-                "instance": null,
-                "key": undefined,
-                "nodeType": "host",
-                "props": Object {
-                  "children": <label
-                    htmlFor="menu"
-                  >
-                    <input
-                      className="Cheesecake"
-                      name="desserts"
-                      onChange={[Function]}
-                      type="radio"
-                      value="Cheesecake"
-                    />
-                    Cheesecake
-                  </label>,
-                },
-                "ref": null,
-                "rendered": Object {
-                  "instance": null,
-                  "key": "11",
-                  "nodeType": "host",
-                  "props": Object {
-                    "children": Array [
-                      <input
-                        className="Cheesecake"
-                        name="desserts"
-                        onChange={[Function]}
-                        type="radio"
-                        value="Cheesecake"
-                      />,
-                      "Cheesecake",
-                    ],
-                    "htmlFor": "menu",
-                  },
-                  "ref": null,
-                  "rendered": Array [
-                    Object {
-                      "instance": null,
-                      "key": "11",
-                      "nodeType": "host",
-                      "props": Object {
-                        "className": "Cheesecake",
-                        "name": "desserts",
-                        "onChange": [Function],
-                        "type": "radio",
-                        "value": "Cheesecake",
-                      },
-                      "ref": null,
-                      "rendered": null,
-                      "type": "input",
-                    },
-                    "Cheesecake",
-                  ],
-                  "type": "label",
-                },
-                "type": "div",
-              },
-              Object {
-                "instance": null,
-                "key": undefined,
-                "nodeType": "host",
-                "props": Object {
-                  "children": <label
-                    htmlFor="menu"
-                  >
-                    <input
-                      className="Ice cream"
-                      name="desserts"
-                      onChange={[Function]}
-                      type="radio"
-                      value="Ice cream"
-                    />
-                    Ice cream
-                  </label>,
-                },
-                "ref": null,
-                "rendered": Object {
-                  "instance": null,
-                  "key": "12",
-                  "nodeType": "host",
-                  "props": Object {
-                    "children": Array [
-                      <input
-                        className="Ice cream"
-                        name="desserts"
-                        onChange={[Function]}
-                        type="radio"
-                        value="Ice cream"
-                      />,
-                      "Ice cream",
-                    ],
-                    "htmlFor": "menu",
-                  },
-                  "ref": null,
-                  "rendered": Array [
-                    Object {
-                      "instance": null,
-                      "key": "12",
-                      "nodeType": "host",
-                      "props": Object {
-                        "className": "Ice cream",
-                        "name": "desserts",
-                        "onChange": [Function],
-                        "type": "radio",
-                        "value": "Ice cream",
-                      },
-                      "ref": null,
-                      "rendered": null,
-                      "type": "input",
-                    },
-                    "Ice cream",
-                  ],
-                  "type": "label",
-                },
-                "type": "div",
-              },
-            ],
-            "type": "fieldset",
-          },
-          Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "host",
-            "props": Object {
-              "children": "Submit",
-            },
-            "ref": null,
-            "rendered": "Submit",
-            "type": "button",
-          },
-        ],
-        "type": "form",
+        "rendered": null,
+        "type": [Function],
       },
-      "type": "div",
-    },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "currentOrder": Object {},
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+    ],
     "type": "div",
   },
   Symbol(enzyme.__nodes__): Array [
@@ -1593,1574 +198,179 @@ ShallowWrapper {
       "key": undefined,
       "nodeType": "host",
       "props": Object {
-        "children": <div
-          className="menu"
-        >
-          <form>
-            <fieldset>
-              <legend>
-                STARTERS
-              </legend>
-              <div>
-                <label
-                  htmlFor="menu"
-                >
-                  <input
-                    className="Soup"
-                    name="starters"
-                    onChange={[Function]}
-                    type="radio"
-                    value="Soup"
-                  />
-                  Soup
-                </label>
-              </div>
-              <div>
-                <label
-                  htmlFor="menu"
-                >
-                  <input
-                    className="Pâté"
-                    name="starters"
-                    onChange={[Function]}
-                    type="radio"
-                    value="Pâté"
-                  />
-                  Pâté
-                </label>
-              </div>
-              <div>
-                <label
-                  htmlFor="menu"
-                >
-                  <input
-                    className="Bruschetta"
-                    name="starters"
-                    onChange={[Function]}
-                    type="radio"
-                    value="Bruschetta"
-                  />
-                  Bruschetta
-                </label>
-              </div>
-              <div>
-                <label
-                  htmlFor="menu"
-                >
-                  <input
-                    className="Prawn cocktail"
-                    name="starters"
-                    onChange={[Function]}
-                    type="radio"
-                    value="Prawn cocktail"
-                  />
-                  Prawn cocktail
-                </label>
-              </div>
-            </fieldset>
-            <fieldset>
-              <legend>
-                MAINS
-              </legend>
-              <div>
-                <label
-                  htmlFor="menu"
-                >
-                  <input
-                    className="Steak"
-                    name="mains"
-                    onChange={[Function]}
-                    type="radio"
-                    value="Steak"
-                  />
-                  Steak
-                </label>
-              </div>
-              <div>
-                <label
-                  htmlFor="menu"
-                >
-                  <input
-                    className="Meatballs"
-                    name="mains"
-                    onChange={[Function]}
-                    type="radio"
-                    value="Meatballs"
-                  />
-                  Meatballs
-                </label>
-              </div>
-              <div>
-                <label
-                  htmlFor="menu"
-                >
-                  <input
-                    className="Salmon fillet"
-                    name="mains"
-                    onChange={[Function]}
-                    type="radio"
-                    value="Salmon fillet"
-                  />
-                  Salmon fillet
-                </label>
-              </div>
-              <div>
-                <label
-                  htmlFor="menu"
-                >
-                  <input
-                    className="Vegetarian lasagna"
-                    name="mains"
-                    onChange={[Function]}
-                    type="radio"
-                    value="Vegetarian lasagna"
-                  />
-                  Vegetarian lasagna
-                </label>
-              </div>
-            </fieldset>
-            <fieldset>
-              <legend>
-                DESSERTS
-              </legend>
-              <div>
-                <label
-                  htmlFor="menu"
-                >
-                  <input
-                    className="Sticky toffee"
-                    name="desserts"
-                    onChange={[Function]}
-                    type="radio"
-                    value="Sticky toffee"
-                  />
-                  Sticky toffee
-                </label>
-              </div>
-              <div>
-                <label
-                  htmlFor="menu"
-                >
-                  <input
-                    className="Tiramisu"
-                    name="desserts"
-                    onChange={[Function]}
-                    type="radio"
-                    value="Tiramisu"
-                  />
-                  Tiramisu
-                </label>
-              </div>
-              <div>
-                <label
-                  htmlFor="menu"
-                >
-                  <input
-                    className="Cheesecake"
-                    name="desserts"
-                    onChange={[Function]}
-                    type="radio"
-                    value="Cheesecake"
-                  />
-                  Cheesecake
-                </label>
-              </div>
-              <div>
-                <label
-                  htmlFor="menu"
-                >
-                  <input
-                    className="Ice cream"
-                    name="desserts"
-                    onChange={[Function]}
-                    type="radio"
-                    value="Ice cream"
-                  />
-                  Ice cream
-                </label>
-              </div>
-            </fieldset>
-            <button>
-              Submit
-            </button>
-          </form>
-        </div>,
+        "children": Array [
+          <SelectDish
+            handleRadio={[Function]}
+            menu={
+              Object {
+                "desserts": Array [
+                  Object {
+                    "id": 9,
+                    "name": "Sticky toffee",
+                    "price": 18,
+                  },
+                  Object {
+                    "id": 10,
+                    "name": "Tiramisu",
+                    "price": 4.5,
+                  },
+                  Object {
+                    "id": 11,
+                    "name": "Cheesecake",
+                    "price": 4,
+                  },
+                  Object {
+                    "id": 12,
+                    "name": "Ice cream",
+                    "price": 3.5,
+                  },
+                ],
+                "mains": Array [
+                  Object {
+                    "id": 5,
+                    "name": "Steak",
+                    "price": 18,
+                  },
+                  Object {
+                    "id": 6,
+                    "name": "Meatballs",
+                    "price": 11.5,
+                  },
+                  Object {
+                    "id": 7,
+                    "name": "Salmon fillet",
+                    "price": 14,
+                  },
+                  Object {
+                    "id": 8,
+                    "name": "Vegetarian lasagna",
+                    "price": 12,
+                  },
+                ],
+                "starters": Array [
+                  Object {
+                    "id": 1,
+                    "name": "Soup",
+                    "price": 3,
+                  },
+                  Object {
+                    "id": 2,
+                    "name": "Pâté",
+                    "price": 5,
+                  },
+                  Object {
+                    "id": 3,
+                    "name": "Bruschetta",
+                    "price": 4.5,
+                  },
+                  Object {
+                    "id": 4,
+                    "name": "Prawn cocktail",
+                    "price": 6,
+                  },
+                ],
+              }
+            }
+          />,
+          <Order
+            currentOrder={Object {}}
+          />,
+        ],
         "className": "App",
       },
       "ref": null,
-      "rendered": Object {
-        "instance": null,
-        "key": undefined,
-        "nodeType": "host",
-        "props": Object {
-          "children": <form>
-            <fieldset>
-              <legend>
-                STARTERS
-              </legend>
-              <div>
-                <label
-                  htmlFor="menu"
-                >
-                  <input
-                    className="Soup"
-                    name="starters"
-                    onChange={[Function]}
-                    type="radio"
-                    value="Soup"
-                  />
-                  Soup
-                </label>
-              </div>
-              <div>
-                <label
-                  htmlFor="menu"
-                >
-                  <input
-                    className="Pâté"
-                    name="starters"
-                    onChange={[Function]}
-                    type="radio"
-                    value="Pâté"
-                  />
-                  Pâté
-                </label>
-              </div>
-              <div>
-                <label
-                  htmlFor="menu"
-                >
-                  <input
-                    className="Bruschetta"
-                    name="starters"
-                    onChange={[Function]}
-                    type="radio"
-                    value="Bruschetta"
-                  />
-                  Bruschetta
-                </label>
-              </div>
-              <div>
-                <label
-                  htmlFor="menu"
-                >
-                  <input
-                    className="Prawn cocktail"
-                    name="starters"
-                    onChange={[Function]}
-                    type="radio"
-                    value="Prawn cocktail"
-                  />
-                  Prawn cocktail
-                </label>
-              </div>
-            </fieldset>
-            <fieldset>
-              <legend>
-                MAINS
-              </legend>
-              <div>
-                <label
-                  htmlFor="menu"
-                >
-                  <input
-                    className="Steak"
-                    name="mains"
-                    onChange={[Function]}
-                    type="radio"
-                    value="Steak"
-                  />
-                  Steak
-                </label>
-              </div>
-              <div>
-                <label
-                  htmlFor="menu"
-                >
-                  <input
-                    className="Meatballs"
-                    name="mains"
-                    onChange={[Function]}
-                    type="radio"
-                    value="Meatballs"
-                  />
-                  Meatballs
-                </label>
-              </div>
-              <div>
-                <label
-                  htmlFor="menu"
-                >
-                  <input
-                    className="Salmon fillet"
-                    name="mains"
-                    onChange={[Function]}
-                    type="radio"
-                    value="Salmon fillet"
-                  />
-                  Salmon fillet
-                </label>
-              </div>
-              <div>
-                <label
-                  htmlFor="menu"
-                >
-                  <input
-                    className="Vegetarian lasagna"
-                    name="mains"
-                    onChange={[Function]}
-                    type="radio"
-                    value="Vegetarian lasagna"
-                  />
-                  Vegetarian lasagna
-                </label>
-              </div>
-            </fieldset>
-            <fieldset>
-              <legend>
-                DESSERTS
-              </legend>
-              <div>
-                <label
-                  htmlFor="menu"
-                >
-                  <input
-                    className="Sticky toffee"
-                    name="desserts"
-                    onChange={[Function]}
-                    type="radio"
-                    value="Sticky toffee"
-                  />
-                  Sticky toffee
-                </label>
-              </div>
-              <div>
-                <label
-                  htmlFor="menu"
-                >
-                  <input
-                    className="Tiramisu"
-                    name="desserts"
-                    onChange={[Function]}
-                    type="radio"
-                    value="Tiramisu"
-                  />
-                  Tiramisu
-                </label>
-              </div>
-              <div>
-                <label
-                  htmlFor="menu"
-                >
-                  <input
-                    className="Cheesecake"
-                    name="desserts"
-                    onChange={[Function]}
-                    type="radio"
-                    value="Cheesecake"
-                  />
-                  Cheesecake
-                </label>
-              </div>
-              <div>
-                <label
-                  htmlFor="menu"
-                >
-                  <input
-                    className="Ice cream"
-                    name="desserts"
-                    onChange={[Function]}
-                    type="radio"
-                    value="Ice cream"
-                  />
-                  Ice cream
-                </label>
-              </div>
-            </fieldset>
-            <button>
-              Submit
-            </button>
-          </form>,
-          "className": "menu",
-        },
-        "ref": null,
-        "rendered": Object {
+      "rendered": Array [
+        Object {
           "instance": null,
           "key": undefined,
-          "nodeType": "host",
+          "nodeType": "function",
           "props": Object {
-            "children": Array [
-              Array [
-                <fieldset>
-                  <legend>
-                    STARTERS
-                  </legend>
-                  <div>
-                    <label
-                      htmlFor="menu"
-                    >
-                      <input
-                        className="Soup"
-                        name="starters"
-                        onChange={[Function]}
-                        type="radio"
-                        value="Soup"
-                      />
-                      Soup
-                    </label>
-                  </div>
-                  <div>
-                    <label
-                      htmlFor="menu"
-                    >
-                      <input
-                        className="Pâté"
-                        name="starters"
-                        onChange={[Function]}
-                        type="radio"
-                        value="Pâté"
-                      />
-                      Pâté
-                    </label>
-                  </div>
-                  <div>
-                    <label
-                      htmlFor="menu"
-                    >
-                      <input
-                        className="Bruschetta"
-                        name="starters"
-                        onChange={[Function]}
-                        type="radio"
-                        value="Bruschetta"
-                      />
-                      Bruschetta
-                    </label>
-                  </div>
-                  <div>
-                    <label
-                      htmlFor="menu"
-                    >
-                      <input
-                        className="Prawn cocktail"
-                        name="starters"
-                        onChange={[Function]}
-                        type="radio"
-                        value="Prawn cocktail"
-                      />
-                      Prawn cocktail
-                    </label>
-                  </div>
-                </fieldset>,
-                <fieldset>
-                  <legend>
-                    MAINS
-                  </legend>
-                  <div>
-                    <label
-                      htmlFor="menu"
-                    >
-                      <input
-                        className="Steak"
-                        name="mains"
-                        onChange={[Function]}
-                        type="radio"
-                        value="Steak"
-                      />
-                      Steak
-                    </label>
-                  </div>
-                  <div>
-                    <label
-                      htmlFor="menu"
-                    >
-                      <input
-                        className="Meatballs"
-                        name="mains"
-                        onChange={[Function]}
-                        type="radio"
-                        value="Meatballs"
-                      />
-                      Meatballs
-                    </label>
-                  </div>
-                  <div>
-                    <label
-                      htmlFor="menu"
-                    >
-                      <input
-                        className="Salmon fillet"
-                        name="mains"
-                        onChange={[Function]}
-                        type="radio"
-                        value="Salmon fillet"
-                      />
-                      Salmon fillet
-                    </label>
-                  </div>
-                  <div>
-                    <label
-                      htmlFor="menu"
-                    >
-                      <input
-                        className="Vegetarian lasagna"
-                        name="mains"
-                        onChange={[Function]}
-                        type="radio"
-                        value="Vegetarian lasagna"
-                      />
-                      Vegetarian lasagna
-                    </label>
-                  </div>
-                </fieldset>,
-                <fieldset>
-                  <legend>
-                    DESSERTS
-                  </legend>
-                  <div>
-                    <label
-                      htmlFor="menu"
-                    >
-                      <input
-                        className="Sticky toffee"
-                        name="desserts"
-                        onChange={[Function]}
-                        type="radio"
-                        value="Sticky toffee"
-                      />
-                      Sticky toffee
-                    </label>
-                  </div>
-                  <div>
-                    <label
-                      htmlFor="menu"
-                    >
-                      <input
-                        className="Tiramisu"
-                        name="desserts"
-                        onChange={[Function]}
-                        type="radio"
-                        value="Tiramisu"
-                      />
-                      Tiramisu
-                    </label>
-                  </div>
-                  <div>
-                    <label
-                      htmlFor="menu"
-                    >
-                      <input
-                        className="Cheesecake"
-                        name="desserts"
-                        onChange={[Function]}
-                        type="radio"
-                        value="Cheesecake"
-                      />
-                      Cheesecake
-                    </label>
-                  </div>
-                  <div>
-                    <label
-                      htmlFor="menu"
-                    >
-                      <input
-                        className="Ice cream"
-                        name="desserts"
-                        onChange={[Function]}
-                        type="radio"
-                        value="Ice cream"
-                      />
-                      Ice cream
-                    </label>
-                  </div>
-                </fieldset>,
+            "handleRadio": [Function],
+            "menu": Object {
+              "desserts": Array [
+                Object {
+                  "id": 9,
+                  "name": "Sticky toffee",
+                  "price": 18,
+                },
+                Object {
+                  "id": 10,
+                  "name": "Tiramisu",
+                  "price": 4.5,
+                },
+                Object {
+                  "id": 11,
+                  "name": "Cheesecake",
+                  "price": 4,
+                },
+                Object {
+                  "id": 12,
+                  "name": "Ice cream",
+                  "price": 3.5,
+                },
               ],
-              <button>
-                Submit
-              </button>,
-            ],
+              "mains": Array [
+                Object {
+                  "id": 5,
+                  "name": "Steak",
+                  "price": 18,
+                },
+                Object {
+                  "id": 6,
+                  "name": "Meatballs",
+                  "price": 11.5,
+                },
+                Object {
+                  "id": 7,
+                  "name": "Salmon fillet",
+                  "price": 14,
+                },
+                Object {
+                  "id": 8,
+                  "name": "Vegetarian lasagna",
+                  "price": 12,
+                },
+              ],
+              "starters": Array [
+                Object {
+                  "id": 1,
+                  "name": "Soup",
+                  "price": 3,
+                },
+                Object {
+                  "id": 2,
+                  "name": "Pâté",
+                  "price": 5,
+                },
+                Object {
+                  "id": 3,
+                  "name": "Bruschetta",
+                  "price": 4.5,
+                },
+                Object {
+                  "id": 4,
+                  "name": "Prawn cocktail",
+                  "price": 6,
+                },
+              ],
+            },
           },
           "ref": null,
-          "rendered": Array [
-            Object {
-              "instance": null,
-              "key": "starters",
-              "nodeType": "host",
-              "props": Object {
-                "children": Array [
-                  <legend>
-                    STARTERS
-                  </legend>,
-                  Array [
-                    <div>
-                      <label
-                        htmlFor="menu"
-                      >
-                        <input
-                          className="Soup"
-                          name="starters"
-                          onChange={[Function]}
-                          type="radio"
-                          value="Soup"
-                        />
-                        Soup
-                      </label>
-                    </div>,
-                    <div>
-                      <label
-                        htmlFor="menu"
-                      >
-                        <input
-                          className="Pâté"
-                          name="starters"
-                          onChange={[Function]}
-                          type="radio"
-                          value="Pâté"
-                        />
-                        Pâté
-                      </label>
-                    </div>,
-                    <div>
-                      <label
-                        htmlFor="menu"
-                      >
-                        <input
-                          className="Bruschetta"
-                          name="starters"
-                          onChange={[Function]}
-                          type="radio"
-                          value="Bruschetta"
-                        />
-                        Bruschetta
-                      </label>
-                    </div>,
-                    <div>
-                      <label
-                        htmlFor="menu"
-                      >
-                        <input
-                          className="Prawn cocktail"
-                          name="starters"
-                          onChange={[Function]}
-                          type="radio"
-                          value="Prawn cocktail"
-                        />
-                        Prawn cocktail
-                      </label>
-                    </div>,
-                  ],
-                ],
-              },
-              "ref": null,
-              "rendered": Array [
-                Object {
-                  "instance": null,
-                  "key": undefined,
-                  "nodeType": "host",
-                  "props": Object {
-                    "children": "STARTERS",
-                  },
-                  "ref": null,
-                  "rendered": "STARTERS",
-                  "type": "legend",
-                },
-                Object {
-                  "instance": null,
-                  "key": undefined,
-                  "nodeType": "host",
-                  "props": Object {
-                    "children": <label
-                      htmlFor="menu"
-                    >
-                      <input
-                        className="Soup"
-                        name="starters"
-                        onChange={[Function]}
-                        type="radio"
-                        value="Soup"
-                      />
-                      Soup
-                    </label>,
-                  },
-                  "ref": null,
-                  "rendered": Object {
-                    "instance": null,
-                    "key": "1",
-                    "nodeType": "host",
-                    "props": Object {
-                      "children": Array [
-                        <input
-                          className="Soup"
-                          name="starters"
-                          onChange={[Function]}
-                          type="radio"
-                          value="Soup"
-                        />,
-                        "Soup",
-                      ],
-                      "htmlFor": "menu",
-                    },
-                    "ref": null,
-                    "rendered": Array [
-                      Object {
-                        "instance": null,
-                        "key": "1",
-                        "nodeType": "host",
-                        "props": Object {
-                          "className": "Soup",
-                          "name": "starters",
-                          "onChange": [Function],
-                          "type": "radio",
-                          "value": "Soup",
-                        },
-                        "ref": null,
-                        "rendered": null,
-                        "type": "input",
-                      },
-                      "Soup",
-                    ],
-                    "type": "label",
-                  },
-                  "type": "div",
-                },
-                Object {
-                  "instance": null,
-                  "key": undefined,
-                  "nodeType": "host",
-                  "props": Object {
-                    "children": <label
-                      htmlFor="menu"
-                    >
-                      <input
-                        className="Pâté"
-                        name="starters"
-                        onChange={[Function]}
-                        type="radio"
-                        value="Pâté"
-                      />
-                      Pâté
-                    </label>,
-                  },
-                  "ref": null,
-                  "rendered": Object {
-                    "instance": null,
-                    "key": "2",
-                    "nodeType": "host",
-                    "props": Object {
-                      "children": Array [
-                        <input
-                          className="Pâté"
-                          name="starters"
-                          onChange={[Function]}
-                          type="radio"
-                          value="Pâté"
-                        />,
-                        "Pâté",
-                      ],
-                      "htmlFor": "menu",
-                    },
-                    "ref": null,
-                    "rendered": Array [
-                      Object {
-                        "instance": null,
-                        "key": "2",
-                        "nodeType": "host",
-                        "props": Object {
-                          "className": "Pâté",
-                          "name": "starters",
-                          "onChange": [Function],
-                          "type": "radio",
-                          "value": "Pâté",
-                        },
-                        "ref": null,
-                        "rendered": null,
-                        "type": "input",
-                      },
-                      "Pâté",
-                    ],
-                    "type": "label",
-                  },
-                  "type": "div",
-                },
-                Object {
-                  "instance": null,
-                  "key": undefined,
-                  "nodeType": "host",
-                  "props": Object {
-                    "children": <label
-                      htmlFor="menu"
-                    >
-                      <input
-                        className="Bruschetta"
-                        name="starters"
-                        onChange={[Function]}
-                        type="radio"
-                        value="Bruschetta"
-                      />
-                      Bruschetta
-                    </label>,
-                  },
-                  "ref": null,
-                  "rendered": Object {
-                    "instance": null,
-                    "key": "3",
-                    "nodeType": "host",
-                    "props": Object {
-                      "children": Array [
-                        <input
-                          className="Bruschetta"
-                          name="starters"
-                          onChange={[Function]}
-                          type="radio"
-                          value="Bruschetta"
-                        />,
-                        "Bruschetta",
-                      ],
-                      "htmlFor": "menu",
-                    },
-                    "ref": null,
-                    "rendered": Array [
-                      Object {
-                        "instance": null,
-                        "key": "3",
-                        "nodeType": "host",
-                        "props": Object {
-                          "className": "Bruschetta",
-                          "name": "starters",
-                          "onChange": [Function],
-                          "type": "radio",
-                          "value": "Bruschetta",
-                        },
-                        "ref": null,
-                        "rendered": null,
-                        "type": "input",
-                      },
-                      "Bruschetta",
-                    ],
-                    "type": "label",
-                  },
-                  "type": "div",
-                },
-                Object {
-                  "instance": null,
-                  "key": undefined,
-                  "nodeType": "host",
-                  "props": Object {
-                    "children": <label
-                      htmlFor="menu"
-                    >
-                      <input
-                        className="Prawn cocktail"
-                        name="starters"
-                        onChange={[Function]}
-                        type="radio"
-                        value="Prawn cocktail"
-                      />
-                      Prawn cocktail
-                    </label>,
-                  },
-                  "ref": null,
-                  "rendered": Object {
-                    "instance": null,
-                    "key": "4",
-                    "nodeType": "host",
-                    "props": Object {
-                      "children": Array [
-                        <input
-                          className="Prawn cocktail"
-                          name="starters"
-                          onChange={[Function]}
-                          type="radio"
-                          value="Prawn cocktail"
-                        />,
-                        "Prawn cocktail",
-                      ],
-                      "htmlFor": "menu",
-                    },
-                    "ref": null,
-                    "rendered": Array [
-                      Object {
-                        "instance": null,
-                        "key": "4",
-                        "nodeType": "host",
-                        "props": Object {
-                          "className": "Prawn cocktail",
-                          "name": "starters",
-                          "onChange": [Function],
-                          "type": "radio",
-                          "value": "Prawn cocktail",
-                        },
-                        "ref": null,
-                        "rendered": null,
-                        "type": "input",
-                      },
-                      "Prawn cocktail",
-                    ],
-                    "type": "label",
-                  },
-                  "type": "div",
-                },
-              ],
-              "type": "fieldset",
-            },
-            Object {
-              "instance": null,
-              "key": "mains",
-              "nodeType": "host",
-              "props": Object {
-                "children": Array [
-                  <legend>
-                    MAINS
-                  </legend>,
-                  Array [
-                    <div>
-                      <label
-                        htmlFor="menu"
-                      >
-                        <input
-                          className="Steak"
-                          name="mains"
-                          onChange={[Function]}
-                          type="radio"
-                          value="Steak"
-                        />
-                        Steak
-                      </label>
-                    </div>,
-                    <div>
-                      <label
-                        htmlFor="menu"
-                      >
-                        <input
-                          className="Meatballs"
-                          name="mains"
-                          onChange={[Function]}
-                          type="radio"
-                          value="Meatballs"
-                        />
-                        Meatballs
-                      </label>
-                    </div>,
-                    <div>
-                      <label
-                        htmlFor="menu"
-                      >
-                        <input
-                          className="Salmon fillet"
-                          name="mains"
-                          onChange={[Function]}
-                          type="radio"
-                          value="Salmon fillet"
-                        />
-                        Salmon fillet
-                      </label>
-                    </div>,
-                    <div>
-                      <label
-                        htmlFor="menu"
-                      >
-                        <input
-                          className="Vegetarian lasagna"
-                          name="mains"
-                          onChange={[Function]}
-                          type="radio"
-                          value="Vegetarian lasagna"
-                        />
-                        Vegetarian lasagna
-                      </label>
-                    </div>,
-                  ],
-                ],
-              },
-              "ref": null,
-              "rendered": Array [
-                Object {
-                  "instance": null,
-                  "key": undefined,
-                  "nodeType": "host",
-                  "props": Object {
-                    "children": "MAINS",
-                  },
-                  "ref": null,
-                  "rendered": "MAINS",
-                  "type": "legend",
-                },
-                Object {
-                  "instance": null,
-                  "key": undefined,
-                  "nodeType": "host",
-                  "props": Object {
-                    "children": <label
-                      htmlFor="menu"
-                    >
-                      <input
-                        className="Steak"
-                        name="mains"
-                        onChange={[Function]}
-                        type="radio"
-                        value="Steak"
-                      />
-                      Steak
-                    </label>,
-                  },
-                  "ref": null,
-                  "rendered": Object {
-                    "instance": null,
-                    "key": "5",
-                    "nodeType": "host",
-                    "props": Object {
-                      "children": Array [
-                        <input
-                          className="Steak"
-                          name="mains"
-                          onChange={[Function]}
-                          type="radio"
-                          value="Steak"
-                        />,
-                        "Steak",
-                      ],
-                      "htmlFor": "menu",
-                    },
-                    "ref": null,
-                    "rendered": Array [
-                      Object {
-                        "instance": null,
-                        "key": "5",
-                        "nodeType": "host",
-                        "props": Object {
-                          "className": "Steak",
-                          "name": "mains",
-                          "onChange": [Function],
-                          "type": "radio",
-                          "value": "Steak",
-                        },
-                        "ref": null,
-                        "rendered": null,
-                        "type": "input",
-                      },
-                      "Steak",
-                    ],
-                    "type": "label",
-                  },
-                  "type": "div",
-                },
-                Object {
-                  "instance": null,
-                  "key": undefined,
-                  "nodeType": "host",
-                  "props": Object {
-                    "children": <label
-                      htmlFor="menu"
-                    >
-                      <input
-                        className="Meatballs"
-                        name="mains"
-                        onChange={[Function]}
-                        type="radio"
-                        value="Meatballs"
-                      />
-                      Meatballs
-                    </label>,
-                  },
-                  "ref": null,
-                  "rendered": Object {
-                    "instance": null,
-                    "key": "6",
-                    "nodeType": "host",
-                    "props": Object {
-                      "children": Array [
-                        <input
-                          className="Meatballs"
-                          name="mains"
-                          onChange={[Function]}
-                          type="radio"
-                          value="Meatballs"
-                        />,
-                        "Meatballs",
-                      ],
-                      "htmlFor": "menu",
-                    },
-                    "ref": null,
-                    "rendered": Array [
-                      Object {
-                        "instance": null,
-                        "key": "6",
-                        "nodeType": "host",
-                        "props": Object {
-                          "className": "Meatballs",
-                          "name": "mains",
-                          "onChange": [Function],
-                          "type": "radio",
-                          "value": "Meatballs",
-                        },
-                        "ref": null,
-                        "rendered": null,
-                        "type": "input",
-                      },
-                      "Meatballs",
-                    ],
-                    "type": "label",
-                  },
-                  "type": "div",
-                },
-                Object {
-                  "instance": null,
-                  "key": undefined,
-                  "nodeType": "host",
-                  "props": Object {
-                    "children": <label
-                      htmlFor="menu"
-                    >
-                      <input
-                        className="Salmon fillet"
-                        name="mains"
-                        onChange={[Function]}
-                        type="radio"
-                        value="Salmon fillet"
-                      />
-                      Salmon fillet
-                    </label>,
-                  },
-                  "ref": null,
-                  "rendered": Object {
-                    "instance": null,
-                    "key": "7",
-                    "nodeType": "host",
-                    "props": Object {
-                      "children": Array [
-                        <input
-                          className="Salmon fillet"
-                          name="mains"
-                          onChange={[Function]}
-                          type="radio"
-                          value="Salmon fillet"
-                        />,
-                        "Salmon fillet",
-                      ],
-                      "htmlFor": "menu",
-                    },
-                    "ref": null,
-                    "rendered": Array [
-                      Object {
-                        "instance": null,
-                        "key": "7",
-                        "nodeType": "host",
-                        "props": Object {
-                          "className": "Salmon fillet",
-                          "name": "mains",
-                          "onChange": [Function],
-                          "type": "radio",
-                          "value": "Salmon fillet",
-                        },
-                        "ref": null,
-                        "rendered": null,
-                        "type": "input",
-                      },
-                      "Salmon fillet",
-                    ],
-                    "type": "label",
-                  },
-                  "type": "div",
-                },
-                Object {
-                  "instance": null,
-                  "key": undefined,
-                  "nodeType": "host",
-                  "props": Object {
-                    "children": <label
-                      htmlFor="menu"
-                    >
-                      <input
-                        className="Vegetarian lasagna"
-                        name="mains"
-                        onChange={[Function]}
-                        type="radio"
-                        value="Vegetarian lasagna"
-                      />
-                      Vegetarian lasagna
-                    </label>,
-                  },
-                  "ref": null,
-                  "rendered": Object {
-                    "instance": null,
-                    "key": "8",
-                    "nodeType": "host",
-                    "props": Object {
-                      "children": Array [
-                        <input
-                          className="Vegetarian lasagna"
-                          name="mains"
-                          onChange={[Function]}
-                          type="radio"
-                          value="Vegetarian lasagna"
-                        />,
-                        "Vegetarian lasagna",
-                      ],
-                      "htmlFor": "menu",
-                    },
-                    "ref": null,
-                    "rendered": Array [
-                      Object {
-                        "instance": null,
-                        "key": "8",
-                        "nodeType": "host",
-                        "props": Object {
-                          "className": "Vegetarian lasagna",
-                          "name": "mains",
-                          "onChange": [Function],
-                          "type": "radio",
-                          "value": "Vegetarian lasagna",
-                        },
-                        "ref": null,
-                        "rendered": null,
-                        "type": "input",
-                      },
-                      "Vegetarian lasagna",
-                    ],
-                    "type": "label",
-                  },
-                  "type": "div",
-                },
-              ],
-              "type": "fieldset",
-            },
-            Object {
-              "instance": null,
-              "key": "desserts",
-              "nodeType": "host",
-              "props": Object {
-                "children": Array [
-                  <legend>
-                    DESSERTS
-                  </legend>,
-                  Array [
-                    <div>
-                      <label
-                        htmlFor="menu"
-                      >
-                        <input
-                          className="Sticky toffee"
-                          name="desserts"
-                          onChange={[Function]}
-                          type="radio"
-                          value="Sticky toffee"
-                        />
-                        Sticky toffee
-                      </label>
-                    </div>,
-                    <div>
-                      <label
-                        htmlFor="menu"
-                      >
-                        <input
-                          className="Tiramisu"
-                          name="desserts"
-                          onChange={[Function]}
-                          type="radio"
-                          value="Tiramisu"
-                        />
-                        Tiramisu
-                      </label>
-                    </div>,
-                    <div>
-                      <label
-                        htmlFor="menu"
-                      >
-                        <input
-                          className="Cheesecake"
-                          name="desserts"
-                          onChange={[Function]}
-                          type="radio"
-                          value="Cheesecake"
-                        />
-                        Cheesecake
-                      </label>
-                    </div>,
-                    <div>
-                      <label
-                        htmlFor="menu"
-                      >
-                        <input
-                          className="Ice cream"
-                          name="desserts"
-                          onChange={[Function]}
-                          type="radio"
-                          value="Ice cream"
-                        />
-                        Ice cream
-                      </label>
-                    </div>,
-                  ],
-                ],
-              },
-              "ref": null,
-              "rendered": Array [
-                Object {
-                  "instance": null,
-                  "key": undefined,
-                  "nodeType": "host",
-                  "props": Object {
-                    "children": "DESSERTS",
-                  },
-                  "ref": null,
-                  "rendered": "DESSERTS",
-                  "type": "legend",
-                },
-                Object {
-                  "instance": null,
-                  "key": undefined,
-                  "nodeType": "host",
-                  "props": Object {
-                    "children": <label
-                      htmlFor="menu"
-                    >
-                      <input
-                        className="Sticky toffee"
-                        name="desserts"
-                        onChange={[Function]}
-                        type="radio"
-                        value="Sticky toffee"
-                      />
-                      Sticky toffee
-                    </label>,
-                  },
-                  "ref": null,
-                  "rendered": Object {
-                    "instance": null,
-                    "key": "9",
-                    "nodeType": "host",
-                    "props": Object {
-                      "children": Array [
-                        <input
-                          className="Sticky toffee"
-                          name="desserts"
-                          onChange={[Function]}
-                          type="radio"
-                          value="Sticky toffee"
-                        />,
-                        "Sticky toffee",
-                      ],
-                      "htmlFor": "menu",
-                    },
-                    "ref": null,
-                    "rendered": Array [
-                      Object {
-                        "instance": null,
-                        "key": "9",
-                        "nodeType": "host",
-                        "props": Object {
-                          "className": "Sticky toffee",
-                          "name": "desserts",
-                          "onChange": [Function],
-                          "type": "radio",
-                          "value": "Sticky toffee",
-                        },
-                        "ref": null,
-                        "rendered": null,
-                        "type": "input",
-                      },
-                      "Sticky toffee",
-                    ],
-                    "type": "label",
-                  },
-                  "type": "div",
-                },
-                Object {
-                  "instance": null,
-                  "key": undefined,
-                  "nodeType": "host",
-                  "props": Object {
-                    "children": <label
-                      htmlFor="menu"
-                    >
-                      <input
-                        className="Tiramisu"
-                        name="desserts"
-                        onChange={[Function]}
-                        type="radio"
-                        value="Tiramisu"
-                      />
-                      Tiramisu
-                    </label>,
-                  },
-                  "ref": null,
-                  "rendered": Object {
-                    "instance": null,
-                    "key": "10",
-                    "nodeType": "host",
-                    "props": Object {
-                      "children": Array [
-                        <input
-                          className="Tiramisu"
-                          name="desserts"
-                          onChange={[Function]}
-                          type="radio"
-                          value="Tiramisu"
-                        />,
-                        "Tiramisu",
-                      ],
-                      "htmlFor": "menu",
-                    },
-                    "ref": null,
-                    "rendered": Array [
-                      Object {
-                        "instance": null,
-                        "key": "10",
-                        "nodeType": "host",
-                        "props": Object {
-                          "className": "Tiramisu",
-                          "name": "desserts",
-                          "onChange": [Function],
-                          "type": "radio",
-                          "value": "Tiramisu",
-                        },
-                        "ref": null,
-                        "rendered": null,
-                        "type": "input",
-                      },
-                      "Tiramisu",
-                    ],
-                    "type": "label",
-                  },
-                  "type": "div",
-                },
-                Object {
-                  "instance": null,
-                  "key": undefined,
-                  "nodeType": "host",
-                  "props": Object {
-                    "children": <label
-                      htmlFor="menu"
-                    >
-                      <input
-                        className="Cheesecake"
-                        name="desserts"
-                        onChange={[Function]}
-                        type="radio"
-                        value="Cheesecake"
-                      />
-                      Cheesecake
-                    </label>,
-                  },
-                  "ref": null,
-                  "rendered": Object {
-                    "instance": null,
-                    "key": "11",
-                    "nodeType": "host",
-                    "props": Object {
-                      "children": Array [
-                        <input
-                          className="Cheesecake"
-                          name="desserts"
-                          onChange={[Function]}
-                          type="radio"
-                          value="Cheesecake"
-                        />,
-                        "Cheesecake",
-                      ],
-                      "htmlFor": "menu",
-                    },
-                    "ref": null,
-                    "rendered": Array [
-                      Object {
-                        "instance": null,
-                        "key": "11",
-                        "nodeType": "host",
-                        "props": Object {
-                          "className": "Cheesecake",
-                          "name": "desserts",
-                          "onChange": [Function],
-                          "type": "radio",
-                          "value": "Cheesecake",
-                        },
-                        "ref": null,
-                        "rendered": null,
-                        "type": "input",
-                      },
-                      "Cheesecake",
-                    ],
-                    "type": "label",
-                  },
-                  "type": "div",
-                },
-                Object {
-                  "instance": null,
-                  "key": undefined,
-                  "nodeType": "host",
-                  "props": Object {
-                    "children": <label
-                      htmlFor="menu"
-                    >
-                      <input
-                        className="Ice cream"
-                        name="desserts"
-                        onChange={[Function]}
-                        type="radio"
-                        value="Ice cream"
-                      />
-                      Ice cream
-                    </label>,
-                  },
-                  "ref": null,
-                  "rendered": Object {
-                    "instance": null,
-                    "key": "12",
-                    "nodeType": "host",
-                    "props": Object {
-                      "children": Array [
-                        <input
-                          className="Ice cream"
-                          name="desserts"
-                          onChange={[Function]}
-                          type="radio"
-                          value="Ice cream"
-                        />,
-                        "Ice cream",
-                      ],
-                      "htmlFor": "menu",
-                    },
-                    "ref": null,
-                    "rendered": Array [
-                      Object {
-                        "instance": null,
-                        "key": "12",
-                        "nodeType": "host",
-                        "props": Object {
-                          "className": "Ice cream",
-                          "name": "desserts",
-                          "onChange": [Function],
-                          "type": "radio",
-                          "value": "Ice cream",
-                        },
-                        "ref": null,
-                        "rendered": null,
-                        "type": "input",
-                      },
-                      "Ice cream",
-                    ],
-                    "type": "label",
-                  },
-                  "type": "div",
-                },
-              ],
-              "type": "fieldset",
-            },
-            Object {
-              "instance": null,
-              "key": undefined,
-              "nodeType": "host",
-              "props": Object {
-                "children": "Submit",
-              },
-              "ref": null,
-              "rendered": "Submit",
-              "type": "button",
-            },
-          ],
-          "type": "form",
+          "rendered": null,
+          "type": [Function],
         },
-        "type": "div",
-      },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "currentOrder": Object {},
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+      ],
       "type": "div",
     },
   ],

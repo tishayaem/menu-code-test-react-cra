@@ -2,7 +2,7 @@ import React from 'react'
 function SelectDish(props) {
     return (
       <div className="menu">
-        <form >
+        <form onSubmit={props.handleSubmit}>
           {Object.keys(props.menu).map(course => {
             return (
               <fieldset key={course}>
