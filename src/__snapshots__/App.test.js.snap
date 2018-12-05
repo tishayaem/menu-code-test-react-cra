@@ -30,7 +30,9 @@ ShallowWrapper {
                 htmlFor="menu"
               >
                 <input
+                  className="Soup"
                   name="starters"
+                  onChange={[Function]}
                   type="radio"
                   value="Soup"
                 />
@@ -42,7 +44,9 @@ ShallowWrapper {
                 htmlFor="menu"
               >
                 <input
+                  className="Pâté"
                   name="starters"
+                  onChange={[Function]}
                   type="radio"
                   value="Pâté"
                 />
@@ -54,7 +58,9 @@ ShallowWrapper {
                 htmlFor="menu"
               >
                 <input
+                  className="Bruschetta"
                   name="starters"
+                  onChange={[Function]}
                   type="radio"
                   value="Bruschetta"
                 />
@@ -66,7 +72,9 @@ ShallowWrapper {
                 htmlFor="menu"
               >
                 <input
+                  className="Prawn cocktail"
                   name="starters"
+                  onChange={[Function]}
                   type="radio"
                   value="Prawn cocktail"
                 />
@@ -83,7 +91,9 @@ ShallowWrapper {
                 htmlFor="menu"
               >
                 <input
+                  className="Steak"
                   name="mains"
+                  onChange={[Function]}
                   type="radio"
                   value="Steak"
                 />
@@ -95,7 +105,9 @@ ShallowWrapper {
                 htmlFor="menu"
               >
                 <input
+                  className="Meatballs"
                   name="mains"
+                  onChange={[Function]}
                   type="radio"
                   value="Meatballs"
                 />
@@ -107,7 +119,9 @@ ShallowWrapper {
                 htmlFor="menu"
               >
                 <input
+                  className="Salmon fillet"
                   name="mains"
+                  onChange={[Function]}
                   type="radio"
                   value="Salmon fillet"
                 />
@@ -119,7 +133,9 @@ ShallowWrapper {
                 htmlFor="menu"
               >
                 <input
+                  className="Vegetarian lasagna"
                   name="mains"
+                  onChange={[Function]}
                   type="radio"
                   value="Vegetarian lasagna"
                 />
@@ -136,7 +152,9 @@ ShallowWrapper {
                 htmlFor="menu"
               >
                 <input
+                  className="Sticky toffee"
                   name="desserts"
+                  onChange={[Function]}
                   type="radio"
                   value="Sticky toffee"
                 />
@@ -148,7 +166,9 @@ ShallowWrapper {
                 htmlFor="menu"
               >
                 <input
+                  className="Tiramisu"
                   name="desserts"
+                  onChange={[Function]}
                   type="radio"
                   value="Tiramisu"
                 />
@@ -160,7 +180,9 @@ ShallowWrapper {
                 htmlFor="menu"
               >
                 <input
+                  className="Cheesecake"
                   name="desserts"
+                  onChange={[Function]}
                   type="radio"
                   value="Cheesecake"
                 />
@@ -172,7 +194,9 @@ ShallowWrapper {
                 htmlFor="menu"
               >
                 <input
+                  className="Ice cream"
                   name="desserts"
+                  onChange={[Function]}
                   type="radio"
                   value="Ice cream"
                 />
@@ -203,7 +227,9 @@ ShallowWrapper {
                 htmlFor="menu"
               >
                 <input
+                  className="Soup"
                   name="starters"
+                  onChange={[Function]}
                   type="radio"
                   value="Soup"
                 />
@@ -215,7 +241,9 @@ ShallowWrapper {
                 htmlFor="menu"
               >
                 <input
+                  className="Pâté"
                   name="starters"
+                  onChange={[Function]}
                   type="radio"
                   value="Pâté"
                 />
@@ -227,7 +255,9 @@ ShallowWrapper {
                 htmlFor="menu"
               >
                 <input
+                  className="Bruschetta"
                   name="starters"
+                  onChange={[Function]}
                   type="radio"
                   value="Bruschetta"
                 />
@@ -239,7 +269,9 @@ ShallowWrapper {
                 htmlFor="menu"
               >
                 <input
+                  className="Prawn cocktail"
                   name="starters"
+                  onChange={[Function]}
                   type="radio"
                   value="Prawn cocktail"
                 />
@@ -256,7 +288,9 @@ ShallowWrapper {
                 htmlFor="menu"
               >
                 <input
+                  className="Steak"
                   name="mains"
+                  onChange={[Function]}
                   type="radio"
                   value="Steak"
                 />
@@ -268,7 +302,9 @@ ShallowWrapper {
                 htmlFor="menu"
               >
                 <input
+                  className="Meatballs"
                   name="mains"
+                  onChange={[Function]}
                   type="radio"
                   value="Meatballs"
                 />
@@ -280,7 +316,9 @@ ShallowWrapper {
                 htmlFor="menu"
               >
                 <input
+                  className="Salmon fillet"
                   name="mains"
+                  onChange={[Function]}
                   type="radio"
                   value="Salmon fillet"
                 />
@@ -292,7 +330,9 @@ ShallowWrapper {
                 htmlFor="menu"
               >
                 <input
+                  className="Vegetarian lasagna"
                   name="mains"
+                  onChange={[Function]}
                   type="radio"
                   value="Vegetarian lasagna"
                 />
@@ -309,7 +349,9 @@ ShallowWrapper {
                 htmlFor="menu"
               >
                 <input
+                  className="Sticky toffee"
                   name="desserts"
+                  onChange={[Function]}
                   type="radio"
                   value="Sticky toffee"
                 />
@@ -321,7 +363,9 @@ ShallowWrapper {
                 htmlFor="menu"
               >
                 <input
+                  className="Tiramisu"
                   name="desserts"
+                  onChange={[Function]}
                   type="radio"
                   value="Tiramisu"
                 />
@@ -333,7 +377,9 @@ ShallowWrapper {
                 htmlFor="menu"
               >
                 <input
+                  className="Cheesecake"
                   name="desserts"
+                  onChange={[Function]}
                   type="radio"
                   value="Cheesecake"
                 />
@@ -345,7 +391,9 @@ ShallowWrapper {
                 htmlFor="menu"
               >
                 <input
+                  className="Ice cream"
                   name="desserts"
+                  onChange={[Function]}
                   type="radio"
                   value="Ice cream"
                 />
@@ -376,7 +424,9 @@ ShallowWrapper {
                     htmlFor="menu"
                   >
                     <input
+                      className="Soup"
                       name="starters"
+                      onChange={[Function]}
                       type="radio"
                       value="Soup"
                     />
@@ -388,7 +438,9 @@ ShallowWrapper {
                     htmlFor="menu"
                   >
                     <input
+                      className="Pâté"
                       name="starters"
+                      onChange={[Function]}
                       type="radio"
                       value="Pâté"
                     />
@@ -400,7 +452,9 @@ ShallowWrapper {
                     htmlFor="menu"
                   >
                     <input
+                      className="Bruschetta"
                       name="starters"
+                      onChange={[Function]}
                       type="radio"
                       value="Bruschetta"
                     />
@@ -412,7 +466,9 @@ ShallowWrapper {
                     htmlFor="menu"
                   >
                     <input
+                      className="Prawn cocktail"
                       name="starters"
+                      onChange={[Function]}
                       type="radio"
                       value="Prawn cocktail"
                     />
@@ -429,7 +485,9 @@ ShallowWrapper {
                     htmlFor="menu"
                   >
                     <input
+                      className="Steak"
                       name="mains"
+                      onChange={[Function]}
                       type="radio"
                       value="Steak"
                     />
@@ -441,7 +499,9 @@ ShallowWrapper {
                     htmlFor="menu"
                   >
                     <input
+                      className="Meatballs"
                       name="mains"
+                      onChange={[Function]}
                       type="radio"
                       value="Meatballs"
                     />
@@ -453,7 +513,9 @@ ShallowWrapper {
                     htmlFor="menu"
                   >
                     <input
+                      className="Salmon fillet"
                       name="mains"
+                      onChange={[Function]}
                       type="radio"
                       value="Salmon fillet"
                     />
@@ -465,7 +527,9 @@ ShallowWrapper {
                     htmlFor="menu"
                   >
                     <input
+                      className="Vegetarian lasagna"
                       name="mains"
+                      onChange={[Function]}
                       type="radio"
                       value="Vegetarian lasagna"
                     />
@@ -482,7 +546,9 @@ ShallowWrapper {
                     htmlFor="menu"
                   >
                     <input
+                      className="Sticky toffee"
                       name="desserts"
+                      onChange={[Function]}
                       type="radio"
                       value="Sticky toffee"
                     />
@@ -494,7 +560,9 @@ ShallowWrapper {
                     htmlFor="menu"
                   >
                     <input
+                      className="Tiramisu"
                       name="desserts"
+                      onChange={[Function]}
                       type="radio"
                       value="Tiramisu"
                     />
@@ -506,7 +574,9 @@ ShallowWrapper {
                     htmlFor="menu"
                   >
                     <input
+                      className="Cheesecake"
                       name="desserts"
+                      onChange={[Function]}
                       type="radio"
                       value="Cheesecake"
                     />
@@ -518,7 +588,9 @@ ShallowWrapper {
                     htmlFor="menu"
                   >
                     <input
+                      className="Ice cream"
                       name="desserts"
+                      onChange={[Function]}
                       type="radio"
                       value="Ice cream"
                     />
@@ -549,7 +621,9 @@ ShallowWrapper {
                       htmlFor="menu"
                     >
                       <input
+                        className="Soup"
                         name="starters"
+                        onChange={[Function]}
                         type="radio"
                         value="Soup"
                       />
@@ -561,7 +635,9 @@ ShallowWrapper {
                       htmlFor="menu"
                     >
                       <input
+                        className="Pâté"
                         name="starters"
+                        onChange={[Function]}
                         type="radio"
                         value="Pâté"
                       />
@@ -573,7 +649,9 @@ ShallowWrapper {
                       htmlFor="menu"
                     >
                       <input
+                        className="Bruschetta"
                         name="starters"
+                        onChange={[Function]}
                         type="radio"
                         value="Bruschetta"
                       />
@@ -585,7 +663,9 @@ ShallowWrapper {
                       htmlFor="menu"
                     >
                       <input
+                        className="Prawn cocktail"
                         name="starters"
+                        onChange={[Function]}
                         type="radio"
                         value="Prawn cocktail"
                       />
@@ -617,7 +697,9 @@ ShallowWrapper {
                     htmlFor="menu"
                   >
                     <input
+                      className="Soup"
                       name="starters"
+                      onChange={[Function]}
                       type="radio"
                       value="Soup"
                     />
@@ -632,7 +714,9 @@ ShallowWrapper {
                   "props": Object {
                     "children": Array [
                       <input
+                        className="Soup"
                         name="starters"
+                        onChange={[Function]}
                         type="radio"
                         value="Soup"
                       />,
@@ -647,7 +731,9 @@ ShallowWrapper {
                       "key": "1",
                       "nodeType": "host",
                       "props": Object {
+                        "className": "Soup",
                         "name": "starters",
+                        "onChange": [Function],
                         "type": "radio",
                         "value": "Soup",
                       },
@@ -670,7 +756,9 @@ ShallowWrapper {
                     htmlFor="menu"
                   >
                     <input
+                      className="Pâté"
                       name="starters"
+                      onChange={[Function]}
                       type="radio"
                       value="Pâté"
                     />
@@ -685,7 +773,9 @@ ShallowWrapper {
                   "props": Object {
                     "children": Array [
                       <input
+                        className="Pâté"
                         name="starters"
+                        onChange={[Function]}
                         type="radio"
                         value="Pâté"
                       />,
@@ -700,7 +790,9 @@ ShallowWrapper {
                       "key": "2",
                       "nodeType": "host",
                       "props": Object {
+                        "className": "Pâté",
                         "name": "starters",
+                        "onChange": [Function],
                         "type": "radio",
                         "value": "Pâté",
                       },
@@ -723,7 +815,9 @@ ShallowWrapper {
                     htmlFor="menu"
                   >
                     <input
+                      className="Bruschetta"
                       name="starters"
+                      onChange={[Function]}
                       type="radio"
                       value="Bruschetta"
                     />
@@ -738,7 +832,9 @@ ShallowWrapper {
                   "props": Object {
                     "children": Array [
                       <input
+                        className="Bruschetta"
                         name="starters"
+                        onChange={[Function]}
                         type="radio"
                         value="Bruschetta"
                       />,
@@ -753,7 +849,9 @@ ShallowWrapper {
                       "key": "3",
                       "nodeType": "host",
                       "props": Object {
+                        "className": "Bruschetta",
                         "name": "starters",
+                        "onChange": [Function],
                         "type": "radio",
                         "value": "Bruschetta",
                       },
@@ -776,7 +874,9 @@ ShallowWrapper {
                     htmlFor="menu"
                   >
                     <input
+                      className="Prawn cocktail"
                       name="starters"
+                      onChange={[Function]}
                       type="radio"
                       value="Prawn cocktail"
                     />
@@ -791,7 +891,9 @@ ShallowWrapper {
                   "props": Object {
                     "children": Array [
                       <input
+                        className="Prawn cocktail"
                         name="starters"
+                        onChange={[Function]}
                         type="radio"
                         value="Prawn cocktail"
                       />,
@@ -806,7 +908,9 @@ ShallowWrapper {
                       "key": "4",
                       "nodeType": "host",
                       "props": Object {
+                        "className": "Prawn cocktail",
                         "name": "starters",
+                        "onChange": [Function],
                         "type": "radio",
                         "value": "Prawn cocktail",
                       },
@@ -838,7 +942,9 @@ ShallowWrapper {
                       htmlFor="menu"
                     >
                       <input
+                        className="Steak"
                         name="mains"
+                        onChange={[Function]}
                         type="radio"
                         value="Steak"
                       />
@@ -850,7 +956,9 @@ ShallowWrapper {
                       htmlFor="menu"
                     >
                       <input
+                        className="Meatballs"
                         name="mains"
+                        onChange={[Function]}
                         type="radio"
                         value="Meatballs"
                       />
@@ -862,7 +970,9 @@ ShallowWrapper {
                       htmlFor="menu"
                     >
                       <input
+                        className="Salmon fillet"
                         name="mains"
+                        onChange={[Function]}
                         type="radio"
                         value="Salmon fillet"
                       />
@@ -874,7 +984,9 @@ ShallowWrapper {
                       htmlFor="menu"
                     >
                       <input
+                        className="Vegetarian lasagna"
                         name="mains"
+                        onChange={[Function]}
                         type="radio"
                         value="Vegetarian lasagna"
                       />
@@ -906,7 +1018,9 @@ ShallowWrapper {
                     htmlFor="menu"
                   >
                     <input
+                      className="Steak"
                       name="mains"
+                      onChange={[Function]}
                       type="radio"
                       value="Steak"
                     />
@@ -921,7 +1035,9 @@ ShallowWrapper {
                   "props": Object {
                     "children": Array [
                       <input
+                        className="Steak"
                         name="mains"
+                        onChange={[Function]}
                         type="radio"
                         value="Steak"
                       />,
@@ -936,7 +1052,9 @@ ShallowWrapper {
                       "key": "5",
                       "nodeType": "host",
                       "props": Object {
+                        "className": "Steak",
                         "name": "mains",
+                        "onChange": [Function],
                         "type": "radio",
                         "value": "Steak",
                       },
@@ -959,7 +1077,9 @@ ShallowWrapper {
                     htmlFor="menu"
                   >
                     <input
+                      className="Meatballs"
                       name="mains"
+                      onChange={[Function]}
                       type="radio"
                       value="Meatballs"
                     />
@@ -974,7 +1094,9 @@ ShallowWrapper {
                   "props": Object {
                     "children": Array [
                       <input
+                        className="Meatballs"
                         name="mains"
+                        onChange={[Function]}
                         type="radio"
                         value="Meatballs"
                       />,
@@ -989,7 +1111,9 @@ ShallowWrapper {
                       "key": "6",
                       "nodeType": "host",
                       "props": Object {
+                        "className": "Meatballs",
                         "name": "mains",
+                        "onChange": [Function],
                         "type": "radio",
                         "value": "Meatballs",
                       },
@@ -1012,7 +1136,9 @@ ShallowWrapper {
                     htmlFor="menu"
                   >
                     <input
+                      className="Salmon fillet"
                       name="mains"
+                      onChange={[Function]}
                       type="radio"
                       value="Salmon fillet"
                     />
@@ -1027,7 +1153,9 @@ ShallowWrapper {
                   "props": Object {
                     "children": Array [
                       <input
+                        className="Salmon fillet"
                         name="mains"
+                        onChange={[Function]}
                         type="radio"
                         value="Salmon fillet"
                       />,
@@ -1042,7 +1170,9 @@ ShallowWrapper {
                       "key": "7",
                       "nodeType": "host",
                       "props": Object {
+                        "className": "Salmon fillet",
                         "name": "mains",
+                        "onChange": [Function],
                         "type": "radio",
                         "value": "Salmon fillet",
                       },
@@ -1065,7 +1195,9 @@ ShallowWrapper {
                     htmlFor="menu"
                   >
                     <input
+                      className="Vegetarian lasagna"
                       name="mains"
+                      onChange={[Function]}
                       type="radio"
                       value="Vegetarian lasagna"
                     />
@@ -1080,7 +1212,9 @@ ShallowWrapper {
                   "props": Object {
                     "children": Array [
                       <input
+                        className="Vegetarian lasagna"
                         name="mains"
+                        onChange={[Function]}
                         type="radio"
                         value="Vegetarian lasagna"
                       />,
@@ -1095,7 +1229,9 @@ ShallowWrapper {
                       "key": "8",
                       "nodeType": "host",
                       "props": Object {
+                        "className": "Vegetarian lasagna",
                         "name": "mains",
+                        "onChange": [Function],
                         "type": "radio",
                         "value": "Vegetarian lasagna",
                       },
@@ -1127,7 +1263,9 @@ ShallowWrapper {
                       htmlFor="menu"
                     >
                       <input
+                        className="Sticky toffee"
                         name="desserts"
+                        onChange={[Function]}
                         type="radio"
                         value="Sticky toffee"
                       />
@@ -1139,7 +1277,9 @@ ShallowWrapper {
                       htmlFor="menu"
                     >
                       <input
+                        className="Tiramisu"
                         name="desserts"
+                        onChange={[Function]}
                         type="radio"
                         value="Tiramisu"
                       />
@@ -1151,7 +1291,9 @@ ShallowWrapper {
                       htmlFor="menu"
                     >
                       <input
+                        className="Cheesecake"
                         name="desserts"
+                        onChange={[Function]}
                         type="radio"
                         value="Cheesecake"
                       />
@@ -1163,7 +1305,9 @@ ShallowWrapper {
                       htmlFor="menu"
                     >
                       <input
+                        className="Ice cream"
                         name="desserts"
+                        onChange={[Function]}
                         type="radio"
                         value="Ice cream"
                       />
@@ -1195,7 +1339,9 @@ ShallowWrapper {
                     htmlFor="menu"
                   >
                     <input
+                      className="Sticky toffee"
                       name="desserts"
+                      onChange={[Function]}
                       type="radio"
                       value="Sticky toffee"
                     />
@@ -1210,7 +1356,9 @@ ShallowWrapper {
                   "props": Object {
                     "children": Array [
                       <input
+                        className="Sticky toffee"
                         name="desserts"
+                        onChange={[Function]}
                         type="radio"
                         value="Sticky toffee"
                       />,
@@ -1225,7 +1373,9 @@ ShallowWrapper {
                       "key": "9",
                       "nodeType": "host",
                       "props": Object {
+                        "className": "Sticky toffee",
                         "name": "desserts",
+                        "onChange": [Function],
                         "type": "radio",
                         "value": "Sticky toffee",
                       },
@@ -1248,7 +1398,9 @@ ShallowWrapper {
                     htmlFor="menu"
                   >
                     <input
+                      className="Tiramisu"
                       name="desserts"
+                      onChange={[Function]}
                       type="radio"
                       value="Tiramisu"
                     />
@@ -1263,7 +1415,9 @@ ShallowWrapper {
                   "props": Object {
                     "children": Array [
                       <input
+                        className="Tiramisu"
                         name="desserts"
+                        onChange={[Function]}
                         type="radio"
                         value="Tiramisu"
                       />,
@@ -1278,7 +1432,9 @@ ShallowWrapper {
                       "key": "10",
                       "nodeType": "host",
                       "props": Object {
+                        "className": "Tiramisu",
                         "name": "desserts",
+                        "onChange": [Function],
                         "type": "radio",
                         "value": "Tiramisu",
                       },
@@ -1301,7 +1457,9 @@ ShallowWrapper {
                     htmlFor="menu"
                   >
                     <input
+                      className="Cheesecake"
                       name="desserts"
+                      onChange={[Function]}
                       type="radio"
                       value="Cheesecake"
                     />
@@ -1316,7 +1474,9 @@ ShallowWrapper {
                   "props": Object {
                     "children": Array [
                       <input
+                        className="Cheesecake"
                         name="desserts"
+                        onChange={[Function]}
                         type="radio"
                         value="Cheesecake"
                       />,
@@ -1331,7 +1491,9 @@ ShallowWrapper {
                       "key": "11",
                       "nodeType": "host",
                       "props": Object {
+                        "className": "Cheesecake",
                         "name": "desserts",
+                        "onChange": [Function],
                         "type": "radio",
                         "value": "Cheesecake",
                       },
@@ -1354,7 +1516,9 @@ ShallowWrapper {
                     htmlFor="menu"
                   >
                     <input
+                      className="Ice cream"
                       name="desserts"
+                      onChange={[Function]}
                       type="radio"
                       value="Ice cream"
                     />
@@ -1369,7 +1533,9 @@ ShallowWrapper {
                   "props": Object {
                     "children": Array [
                       <input
+                        className="Ice cream"
                         name="desserts"
+                        onChange={[Function]}
                         type="radio"
                         value="Ice cream"
                       />,
@@ -1384,7 +1550,9 @@ ShallowWrapper {
                       "key": "12",
                       "nodeType": "host",
                       "props": Object {
+                        "className": "Ice cream",
                         "name": "desserts",
+                        "onChange": [Function],
                         "type": "radio",
                         "value": "Ice cream",
                       },
@@ -1438,7 +1606,9 @@ ShallowWrapper {
                   htmlFor="menu"
                 >
                   <input
+                    className="Soup"
                     name="starters"
+                    onChange={[Function]}
                     type="radio"
                     value="Soup"
                   />
@@ -1450,7 +1620,9 @@ ShallowWrapper {
                   htmlFor="menu"
                 >
                   <input
+                    className="Pâté"
                     name="starters"
+                    onChange={[Function]}
                     type="radio"
                     value="Pâté"
                   />
@@ -1462,7 +1634,9 @@ ShallowWrapper {
                   htmlFor="menu"
                 >
                   <input
+                    className="Bruschetta"
                     name="starters"
+                    onChange={[Function]}
                     type="radio"
                     value="Bruschetta"
                   />
@@ -1474,7 +1648,9 @@ ShallowWrapper {
                   htmlFor="menu"
                 >
                   <input
+                    className="Prawn cocktail"
                     name="starters"
+                    onChange={[Function]}
                     type="radio"
                     value="Prawn cocktail"
                   />
@@ -1491,7 +1667,9 @@ ShallowWrapper {
                   htmlFor="menu"
                 >
                   <input
+                    className="Steak"
                     name="mains"
+                    onChange={[Function]}
                     type="radio"
                     value="Steak"
                   />
@@ -1503,7 +1681,9 @@ ShallowWrapper {
                   htmlFor="menu"
                 >
                   <input
+                    className="Meatballs"
                     name="mains"
+                    onChange={[Function]}
                     type="radio"
                     value="Meatballs"
                   />
@@ -1515,7 +1695,9 @@ ShallowWrapper {
                   htmlFor="menu"
                 >
                   <input
+                    className="Salmon fillet"
                     name="mains"
+                    onChange={[Function]}
                     type="radio"
                     value="Salmon fillet"
                   />
@@ -1527,7 +1709,9 @@ ShallowWrapper {
                   htmlFor="menu"
                 >
                   <input
+                    className="Vegetarian lasagna"
                     name="mains"
+                    onChange={[Function]}
                     type="radio"
                     value="Vegetarian lasagna"
                   />
@@ -1544,7 +1728,9 @@ ShallowWrapper {
                   htmlFor="menu"
                 >
                   <input
+                    className="Sticky toffee"
                     name="desserts"
+                    onChange={[Function]}
                     type="radio"
                     value="Sticky toffee"
                   />
@@ -1556,7 +1742,9 @@ ShallowWrapper {
                   htmlFor="menu"
                 >
                   <input
+                    className="Tiramisu"
                     name="desserts"
+                    onChange={[Function]}
                     type="radio"
                     value="Tiramisu"
                   />
@@ -1568,7 +1756,9 @@ ShallowWrapper {
                   htmlFor="menu"
                 >
                   <input
+                    className="Cheesecake"
                     name="desserts"
+                    onChange={[Function]}
                     type="radio"
                     value="Cheesecake"
                   />
@@ -1580,7 +1770,9 @@ ShallowWrapper {
                   htmlFor="menu"
                 >
                   <input
+                    className="Ice cream"
                     name="desserts"
+                    onChange={[Function]}
                     type="radio"
                     value="Ice cream"
                   />
@@ -1611,7 +1803,9 @@ ShallowWrapper {
                   htmlFor="menu"
                 >
                   <input
+                    className="Soup"
                     name="starters"
+                    onChange={[Function]}
                     type="radio"
                     value="Soup"
                   />
@@ -1623,7 +1817,9 @@ ShallowWrapper {
                   htmlFor="menu"
                 >
                   <input
+                    className="Pâté"
                     name="starters"
+                    onChange={[Function]}
                     type="radio"
                     value="Pâté"
                   />
@@ -1635,7 +1831,9 @@ ShallowWrapper {
                   htmlFor="menu"
                 >
                   <input
+                    className="Bruschetta"
                     name="starters"
+                    onChange={[Function]}
                     type="radio"
                     value="Bruschetta"
                   />
@@ -1647,7 +1845,9 @@ ShallowWrapper {
                   htmlFor="menu"
                 >
                   <input
+                    className="Prawn cocktail"
                     name="starters"
+                    onChange={[Function]}
                     type="radio"
                     value="Prawn cocktail"
                   />
@@ -1664,7 +1864,9 @@ ShallowWrapper {
                   htmlFor="menu"
                 >
                   <input
+                    className="Steak"
                     name="mains"
+                    onChange={[Function]}
                     type="radio"
                     value="Steak"
                   />
@@ -1676,7 +1878,9 @@ ShallowWrapper {
                   htmlFor="menu"
                 >
                   <input
+                    className="Meatballs"
                     name="mains"
+                    onChange={[Function]}
                     type="radio"
                     value="Meatballs"
                   />
@@ -1688,7 +1892,9 @@ ShallowWrapper {
                   htmlFor="menu"
                 >
                   <input
+                    className="Salmon fillet"
                     name="mains"
+                    onChange={[Function]}
                     type="radio"
                     value="Salmon fillet"
                   />
@@ -1700,7 +1906,9 @@ ShallowWrapper {
                   htmlFor="menu"
                 >
                   <input
+                    className="Vegetarian lasagna"
                     name="mains"
+                    onChange={[Function]}
                     type="radio"
                     value="Vegetarian lasagna"
                   />
@@ -1717,7 +1925,9 @@ ShallowWrapper {
                   htmlFor="menu"
                 >
                   <input
+                    className="Sticky toffee"
                     name="desserts"
+                    onChange={[Function]}
                     type="radio"
                     value="Sticky toffee"
                   />
@@ -1729,7 +1939,9 @@ ShallowWrapper {
                   htmlFor="menu"
                 >
                   <input
+                    className="Tiramisu"
                     name="desserts"
+                    onChange={[Function]}
                     type="radio"
                     value="Tiramisu"
                   />
@@ -1741,7 +1953,9 @@ ShallowWrapper {
                   htmlFor="menu"
                 >
                   <input
+                    className="Cheesecake"
                     name="desserts"
+                    onChange={[Function]}
                     type="radio"
                     value="Cheesecake"
                   />
@@ -1753,7 +1967,9 @@ ShallowWrapper {
                   htmlFor="menu"
                 >
                   <input
+                    className="Ice cream"
                     name="desserts"
+                    onChange={[Function]}
                     type="radio"
                     value="Ice cream"
                   />
@@ -1784,7 +2000,9 @@ ShallowWrapper {
                       htmlFor="menu"
                     >
                       <input
+                        className="Soup"
                         name="starters"
+                        onChange={[Function]}
                         type="radio"
                         value="Soup"
                       />
@@ -1796,7 +2014,9 @@ ShallowWrapper {
                       htmlFor="menu"
                     >
                       <input
+                        className="Pâté"
                         name="starters"
+                        onChange={[Function]}
                         type="radio"
                         value="Pâté"
                       />
@@ -1808,7 +2028,9 @@ ShallowWrapper {
                       htmlFor="menu"
                     >
                       <input
+                        className="Bruschetta"
                         name="starters"
+                        onChange={[Function]}
                         type="radio"
                         value="Bruschetta"
                       />
@@ -1820,7 +2042,9 @@ ShallowWrapper {
                       htmlFor="menu"
                     >
                       <input
+                        className="Prawn cocktail"
                         name="starters"
+                        onChange={[Function]}
                         type="radio"
                         value="Prawn cocktail"
                       />
@@ -1837,7 +2061,9 @@ ShallowWrapper {
                       htmlFor="menu"
                     >
                       <input
+                        className="Steak"
                         name="mains"
+                        onChange={[Function]}
                         type="radio"
                         value="Steak"
                       />
@@ -1849,7 +2075,9 @@ ShallowWrapper {
                       htmlFor="menu"
                     >
                       <input
+                        className="Meatballs"
                         name="mains"
+                        onChange={[Function]}
                         type="radio"
                         value="Meatballs"
                       />
@@ -1861,7 +2089,9 @@ ShallowWrapper {
                       htmlFor="menu"
                     >
                       <input
+                        className="Salmon fillet"
                         name="mains"
+                        onChange={[Function]}
                         type="radio"
                         value="Salmon fillet"
                       />
@@ -1873,7 +2103,9 @@ ShallowWrapper {
                       htmlFor="menu"
                     >
                       <input
+                        className="Vegetarian lasagna"
                         name="mains"
+                        onChange={[Function]}
                         type="radio"
                         value="Vegetarian lasagna"
                       />
@@ -1890,7 +2122,9 @@ ShallowWrapper {
                       htmlFor="menu"
                     >
                       <input
+                        className="Sticky toffee"
                         name="desserts"
+                        onChange={[Function]}
                         type="radio"
                         value="Sticky toffee"
                       />
@@ -1902,7 +2136,9 @@ ShallowWrapper {
                       htmlFor="menu"
                     >
                       <input
+                        className="Tiramisu"
                         name="desserts"
+                        onChange={[Function]}
                         type="radio"
                         value="Tiramisu"
                       />
@@ -1914,7 +2150,9 @@ ShallowWrapper {
                       htmlFor="menu"
                     >
                       <input
+                        className="Cheesecake"
                         name="desserts"
+                        onChange={[Function]}
                         type="radio"
                         value="Cheesecake"
                       />
@@ -1926,7 +2164,9 @@ ShallowWrapper {
                       htmlFor="menu"
                     >
                       <input
+                        className="Ice cream"
                         name="desserts"
+                        onChange={[Function]}
                         type="radio"
                         value="Ice cream"
                       />
@@ -1957,7 +2197,9 @@ ShallowWrapper {
                         htmlFor="menu"
                       >
                         <input
+                          className="Soup"
                           name="starters"
+                          onChange={[Function]}
                           type="radio"
                           value="Soup"
                         />
@@ -1969,7 +2211,9 @@ ShallowWrapper {
                         htmlFor="menu"
                       >
                         <input
+                          className="Pâté"
                           name="starters"
+                          onChange={[Function]}
                           type="radio"
                           value="Pâté"
                         />
@@ -1981,7 +2225,9 @@ ShallowWrapper {
                         htmlFor="menu"
                       >
                         <input
+                          className="Bruschetta"
                           name="starters"
+                          onChange={[Function]}
                           type="radio"
                           value="Bruschetta"
                         />
@@ -1993,7 +2239,9 @@ ShallowWrapper {
                         htmlFor="menu"
                       >
                         <input
+                          className="Prawn cocktail"
                           name="starters"
+                          onChange={[Function]}
                           type="radio"
                           value="Prawn cocktail"
                         />
@@ -2025,7 +2273,9 @@ ShallowWrapper {
                       htmlFor="menu"
                     >
                       <input
+                        className="Soup"
                         name="starters"
+                        onChange={[Function]}
                         type="radio"
                         value="Soup"
                       />
@@ -2040,7 +2290,9 @@ ShallowWrapper {
                     "props": Object {
                       "children": Array [
                         <input
+                          className="Soup"
                           name="starters"
+                          onChange={[Function]}
                           type="radio"
                           value="Soup"
                         />,
@@ -2055,7 +2307,9 @@ ShallowWrapper {
                         "key": "1",
                         "nodeType": "host",
                         "props": Object {
+                          "className": "Soup",
                           "name": "starters",
+                          "onChange": [Function],
                           "type": "radio",
                           "value": "Soup",
                         },
@@ -2078,7 +2332,9 @@ ShallowWrapper {
                       htmlFor="menu"
                     >
                       <input
+                        className="Pâté"
                         name="starters"
+                        onChange={[Function]}
                         type="radio"
                         value="Pâté"
                       />
@@ -2093,7 +2349,9 @@ ShallowWrapper {
                     "props": Object {
                       "children": Array [
                         <input
+                          className="Pâté"
                           name="starters"
+                          onChange={[Function]}
                           type="radio"
                           value="Pâté"
                         />,
@@ -2108,7 +2366,9 @@ ShallowWrapper {
                         "key": "2",
                         "nodeType": "host",
                         "props": Object {
+                          "className": "Pâté",
                           "name": "starters",
+                          "onChange": [Function],
                           "type": "radio",
                           "value": "Pâté",
                         },
@@ -2131,7 +2391,9 @@ ShallowWrapper {
                       htmlFor="menu"
                     >
                       <input
+                        className="Bruschetta"
                         name="starters"
+                        onChange={[Function]}
                         type="radio"
                         value="Bruschetta"
                       />
@@ -2146,7 +2408,9 @@ ShallowWrapper {
                     "props": Object {
                       "children": Array [
                         <input
+                          className="Bruschetta"
                           name="starters"
+                          onChange={[Function]}
                           type="radio"
                           value="Bruschetta"
                         />,
@@ -2161,7 +2425,9 @@ ShallowWrapper {
                         "key": "3",
                         "nodeType": "host",
                         "props": Object {
+                          "className": "Bruschetta",
                           "name": "starters",
+                          "onChange": [Function],
                           "type": "radio",
                           "value": "Bruschetta",
                         },
@@ -2184,7 +2450,9 @@ ShallowWrapper {
                       htmlFor="menu"
                     >
                       <input
+                        className="Prawn cocktail"
                         name="starters"
+                        onChange={[Function]}
                         type="radio"
                         value="Prawn cocktail"
                       />
@@ -2199,7 +2467,9 @@ ShallowWrapper {
                     "props": Object {
                       "children": Array [
                         <input
+                          className="Prawn cocktail"
                           name="starters"
+                          onChange={[Function]}
                           type="radio"
                           value="Prawn cocktail"
                         />,
@@ -2214,7 +2484,9 @@ ShallowWrapper {
                         "key": "4",
                         "nodeType": "host",
                         "props": Object {
+                          "className": "Prawn cocktail",
                           "name": "starters",
+                          "onChange": [Function],
                           "type": "radio",
                           "value": "Prawn cocktail",
                         },
@@ -2246,7 +2518,9 @@ ShallowWrapper {
                         htmlFor="menu"
                       >
                         <input
+                          className="Steak"
                           name="mains"
+                          onChange={[Function]}
                           type="radio"
                           value="Steak"
                         />
@@ -2258,7 +2532,9 @@ ShallowWrapper {
                         htmlFor="menu"
                       >
                         <input
+                          className="Meatballs"
                           name="mains"
+                          onChange={[Function]}
                           type="radio"
                           value="Meatballs"
                         />
@@ -2270,7 +2546,9 @@ ShallowWrapper {
                         htmlFor="menu"
                       >
                         <input
+                          className="Salmon fillet"
                           name="mains"
+                          onChange={[Function]}
                           type="radio"
                           value="Salmon fillet"
                         />
@@ -2282,7 +2560,9 @@ ShallowWrapper {
                         htmlFor="menu"
                       >
                         <input
+                          className="Vegetarian lasagna"
                           name="mains"
+                          onChange={[Function]}
                           type="radio"
                           value="Vegetarian lasagna"
                         />
@@ -2314,7 +2594,9 @@ ShallowWrapper {
                       htmlFor="menu"
                     >
                       <input
+                        className="Steak"
                         name="mains"
+                        onChange={[Function]}
                         type="radio"
                         value="Steak"
                       />
@@ -2329,7 +2611,9 @@ ShallowWrapper {
                     "props": Object {
                       "children": Array [
                         <input
+                          className="Steak"
                           name="mains"
+                          onChange={[Function]}
                           type="radio"
                           value="Steak"
                         />,
@@ -2344,7 +2628,9 @@ ShallowWrapper {
                         "key": "5",
                         "nodeType": "host",
                         "props": Object {
+                          "className": "Steak",
                           "name": "mains",
+                          "onChange": [Function],
                           "type": "radio",
                           "value": "Steak",
                         },
@@ -2367,7 +2653,9 @@ ShallowWrapper {
                       htmlFor="menu"
                     >
                       <input
+                        className="Meatballs"
                         name="mains"
+                        onChange={[Function]}
                         type="radio"
                         value="Meatballs"
                       />
@@ -2382,7 +2670,9 @@ ShallowWrapper {
                     "props": Object {
                       "children": Array [
                         <input
+                          className="Meatballs"
                           name="mains"
+                          onChange={[Function]}
                           type="radio"
                           value="Meatballs"
                         />,
@@ -2397,7 +2687,9 @@ ShallowWrapper {
                         "key": "6",
                         "nodeType": "host",
                         "props": Object {
+                          "className": "Meatballs",
                           "name": "mains",
+                          "onChange": [Function],
                           "type": "radio",
                           "value": "Meatballs",
                         },
@@ -2420,7 +2712,9 @@ ShallowWrapper {
                       htmlFor="menu"
                     >
                       <input
+                        className="Salmon fillet"
                         name="mains"
+                        onChange={[Function]}
                         type="radio"
                         value="Salmon fillet"
                       />
@@ -2435,7 +2729,9 @@ ShallowWrapper {
                     "props": Object {
                       "children": Array [
                         <input
+                          className="Salmon fillet"
                           name="mains"
+                          onChange={[Function]}
                           type="radio"
                           value="Salmon fillet"
                         />,
@@ -2450,7 +2746,9 @@ ShallowWrapper {
                         "key": "7",
                         "nodeType": "host",
                         "props": Object {
+                          "className": "Salmon fillet",
                           "name": "mains",
+                          "onChange": [Function],
                           "type": "radio",
                           "value": "Salmon fillet",
                         },
@@ -2473,7 +2771,9 @@ ShallowWrapper {
                       htmlFor="menu"
                     >
                       <input
+                        className="Vegetarian lasagna"
                         name="mains"
+                        onChange={[Function]}
                         type="radio"
                         value="Vegetarian lasagna"
                       />
@@ -2488,7 +2788,9 @@ ShallowWrapper {
                     "props": Object {
                       "children": Array [
                         <input
+                          className="Vegetarian lasagna"
                           name="mains"
+                          onChange={[Function]}
                           type="radio"
                           value="Vegetarian lasagna"
                         />,
@@ -2503,7 +2805,9 @@ ShallowWrapper {
                         "key": "8",
                         "nodeType": "host",
                         "props": Object {
+                          "className": "Vegetarian lasagna",
                           "name": "mains",
+                          "onChange": [Function],
                           "type": "radio",
                           "value": "Vegetarian lasagna",
                         },
@@ -2535,7 +2839,9 @@ ShallowWrapper {
                         htmlFor="menu"
                       >
                         <input
+                          className="Sticky toffee"
                           name="desserts"
+                          onChange={[Function]}
                           type="radio"
                           value="Sticky toffee"
                         />
@@ -2547,7 +2853,9 @@ ShallowWrapper {
                         htmlFor="menu"
                       >
                         <input
+                          className="Tiramisu"
                           name="desserts"
+                          onChange={[Function]}
                           type="radio"
                           value="Tiramisu"
                         />
@@ -2559,7 +2867,9 @@ ShallowWrapper {
                         htmlFor="menu"
                       >
                         <input
+                          className="Cheesecake"
                           name="desserts"
+                          onChange={[Function]}
                           type="radio"
                           value="Cheesecake"
                         />
@@ -2571,7 +2881,9 @@ ShallowWrapper {
                         htmlFor="menu"
                       >
                         <input
+                          className="Ice cream"
                           name="desserts"
+                          onChange={[Function]}
                           type="radio"
                           value="Ice cream"
                         />
@@ -2603,7 +2915,9 @@ ShallowWrapper {
                       htmlFor="menu"
                     >
                       <input
+                        className="Sticky toffee"
                         name="desserts"
+                        onChange={[Function]}
                         type="radio"
                         value="Sticky toffee"
                       />
@@ -2618,7 +2932,9 @@ ShallowWrapper {
                     "props": Object {
                       "children": Array [
                         <input
+                          className="Sticky toffee"
                           name="desserts"
+                          onChange={[Function]}
                           type="radio"
                           value="Sticky toffee"
                         />,
@@ -2633,7 +2949,9 @@ ShallowWrapper {
                         "key": "9",
                         "nodeType": "host",
                         "props": Object {
+                          "className": "Sticky toffee",
                           "name": "desserts",
+                          "onChange": [Function],
                           "type": "radio",
                           "value": "Sticky toffee",
                         },
@@ -2656,7 +2974,9 @@ ShallowWrapper {
                       htmlFor="menu"
                     >
                       <input
+                        className="Tiramisu"
                         name="desserts"
+                        onChange={[Function]}
                         type="radio"
                         value="Tiramisu"
                       />
@@ -2671,7 +2991,9 @@ ShallowWrapper {
                     "props": Object {
                       "children": Array [
                         <input
+                          className="Tiramisu"
                           name="desserts"
+                          onChange={[Function]}
                           type="radio"
                           value="Tiramisu"
                         />,
@@ -2686,7 +3008,9 @@ ShallowWrapper {
                         "key": "10",
                         "nodeType": "host",
                         "props": Object {
+                          "className": "Tiramisu",
                           "name": "desserts",
+                          "onChange": [Function],
                           "type": "radio",
                           "value": "Tiramisu",
                         },
@@ -2709,7 +3033,9 @@ ShallowWrapper {
                       htmlFor="menu"
                     >
                       <input
+                        className="Cheesecake"
                         name="desserts"
+                        onChange={[Function]}
                         type="radio"
                         value="Cheesecake"
                       />
@@ -2724,7 +3050,9 @@ ShallowWrapper {
                     "props": Object {
                       "children": Array [
                         <input
+                          className="Cheesecake"
                           name="desserts"
+                          onChange={[Function]}
                           type="radio"
                           value="Cheesecake"
                         />,
@@ -2739,7 +3067,9 @@ ShallowWrapper {
                         "key": "11",
                         "nodeType": "host",
                         "props": Object {
+                          "className": "Cheesecake",
                           "name": "desserts",
+                          "onChange": [Function],
                           "type": "radio",
                           "value": "Cheesecake",
                         },
@@ -2762,7 +3092,9 @@ ShallowWrapper {
                       htmlFor="menu"
                     >
                       <input
+                        className="Ice cream"
                         name="desserts"
+                        onChange={[Function]}
                         type="radio"
                         value="Ice cream"
                       />
@@ -2777,7 +3109,9 @@ ShallowWrapper {
                     "props": Object {
                       "children": Array [
                         <input
+                          className="Ice cream"
                           name="desserts"
+                          onChange={[Function]}
                           type="radio"
                           value="Ice cream"
                         />,
@@ -2792,7 +3126,9 @@ ShallowWrapper {
                         "key": "12",
                         "nodeType": "host",
                         "props": Object {
+                          "className": "Ice cream",
                           "name": "desserts",
+                          "onChange": [Function],
                           "type": "radio",
                           "value": "Ice cream",
                         },

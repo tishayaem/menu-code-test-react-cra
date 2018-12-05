@@ -8,8 +8,8 @@ describe('App', () => {
     expect(app).toMatchSnapshot();
   });
 
-  it('renders menu from menu-data.json', ()=> {
-    expect(app.find(".menu").exists()).toBe(true)
-  })
+  it('renders menu from menu-data.json', () => {
+    expect(app.find('.menu').exists()).toBe(true);
+  });
 
-});
+})

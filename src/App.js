@@ -5,11 +5,23 @@ export default class App extends React.Component {
     super();
     this.state = {
       menu: {},
+      currentOrder: {}
     };
   }
 
   componentDidMount() {
     this.setState({ menu: data });
+  }
+  handleRadio = event => {
+    let course = event.target.name;
+    let meal = this.state.menu[course].find(
+      meal => meal.name === event.target.value
+    );
+    let currentOrder = this.state.currentOrder;
+    currentOrder[course] = meal;
+
+    this.setState({ currentOrder });
+
   }
 
   renderMenu() {
@@ -25,10 +37,12 @@ export default class App extends React.Component {
                     <div>
                       <label htmlFor="menu" key={dish.id}>
                         <input
+                          className={dish.name}
                           key={dish.id}
                           name={course}
                           value={dish.name}
                           type="radio"
+                          onChange={this.handleRadio}
                         />
                         {dish.name}
                       </label>
