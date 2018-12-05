@@ -1,5 +1,7 @@
 import React from 'react';
 import data from './menu-data.json';
+import SelectDish from './SelectDish';
+
 export default class App extends React.Component {
   constructor() {
     super();
@@ -21,48 +23,13 @@ export default class App extends React.Component {
     currentOrder[course] = meal;
 
     this.setState({ currentOrder });
+  };
 
-  }
-
-  renderMenu() {
+  render() {
     return (
-      <div className="menu">
-        <form >
-          {Object.keys(this.state.menu).map(course => {
-            return (
-              <fieldset key={course}>
-                <legend>{course.toUpperCase()}</legend>
-                {this.state.menu[course].map(dish => {
-                  return (
-                    <div>
-                      <label htmlFor="menu" key={dish.id}>
-                        <input
-                          className={dish.name}
-                          key={dish.id}
-                          name={course}
-                          value={dish.name}
-                          type="radio"
-                          onChange={this.handleRadio}
-                        />
-                        {dish.name}
-                      </label>
-                    </div>
-                  );
-                })}
-              </fieldset>
-            );
-          })}
-          <button>Submit</button>
-        </form>
+      <div className="App">
+        <SelectDish menu={this.state.menu} handleRadio={this.handleRadio} />
       </div>
     );
   }
-
-
-  render() {
-    return <div className="App">
-    {this.renderMenu()}
-    </div>
-  }
 }
-
