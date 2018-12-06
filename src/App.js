@@ -2,13 +2,15 @@ import React from 'react';
 import data from './menu-data.json';
 import SelectDish from './SelectDish';
 import Order from './Order';
+import ErrorMessage from './ErrorMessage';
 export default class App extends React.Component {
   constructor() {
     super();
     this.state = {
       menu: {},
       currentOrder: {},
-      order: {}
+      order: {},
+      error: false
     };
   }
 
@@ -26,11 +28,38 @@ export default class App extends React.Component {
     this.setState({ currentOrder });
   };
 
+  restaurantRules() {
+    let { currentOrder, error } = this.state;
+
+    const areTwoOrMoreOrdered = Object.keys(currentOrder).length < 2;
+    const isMainOrdered = !currentOrder.mains;
+
+    if (areTwoOrMoreOrdered) {
+      error = 'Please order at least two dishes';
+    } else if (isMainOrdered) {
+      error = 'Please order main dish';
+    } else if (currentOrder.starters && currentOrder.mains) {
+      const doesPierreAccept =
+        currentOrder.starters.name === 'Prawn cocktail' &&
+        currentOrder.mains.name === 'Salmon fillet';
+
+      if (doesPierreAccept) {
+        error = "We are sorry but you can't have Salmon with prawn!";
+      }
+    }
+    return error;
+  }
+
   handleSubmit = event => {
     event.preventDefault();
 
     let order = this.state.currentOrder;
-    this.setState({ order, currentOrder: {} });
+    let error = this.restaurantRules();
+    if (error) {
+      order = {};
+    }
+
+    this.setState({ order, currentOrder: {}, error });
   };
 
   render() {
@@ -42,6 +71,11 @@ export default class App extends React.Component {
           handleSubmit={this.handleSubmit}
         />
         <Order currentOrder={this.state.currentOrder} />
+        {this.state.error && (
+          <div>
+            <ErrorMessage error={this.state.error} />
+          </div>
+        )}
       </div>
     );
   }
