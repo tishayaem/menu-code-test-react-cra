@@ -22,12 +22,12 @@ export default function Order(props) {
   return (
     <React.Fragment>
       <div>
-      {props.user < 3 ? <div className="current-order"><h3>Current Order for Guest {props.user}</h3><label>{formatPrice(total)}</label> </div> : null}
+      {props.user < 3 ? <div className="current-order"><h3>Order for Guest {props.user}</h3><label>{formatPrice(total)}</label> </div> : null}
       
       
       </div>
       <div className="final-order">
-      <h3>Final Order</h3>
+      <h3>Total amount</h3>
       <label>{formatPrice(totalForTwo)}</label>
       </div>
     </React.Fragment>
