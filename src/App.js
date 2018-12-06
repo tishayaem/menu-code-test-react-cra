@@ -8,6 +8,7 @@ export default class App extends React.Component {
     super();
     this.state = {
       menu: {},
+      user: 1,
       currentOrder: {},
       order: {},
       error: false
@@ -53,13 +54,19 @@ export default class App extends React.Component {
   handleSubmit = event => {
     event.preventDefault();
 
-    let order = this.state.currentOrder;
+    let currentOrder = this.state.currentOrder;
     let error = this.restaurantRules();
+    let user = this.state.user;
+    let order = this.state.order;
     if (error) {
+      currentOrder = {};
       order = {};
+    } else {
+      order[user] = currentOrder;
+      user += 1;
     }
 
-    this.setState({ order, currentOrder: {}, error });
+    this.setState({ order, currentOrder: {}, error, user });
   };
 
   render() {
@@ -70,7 +77,10 @@ export default class App extends React.Component {
           handleRadio={this.handleRadio}
           handleSubmit={this.handleSubmit}
         />
-        <Order currentOrder={this.state.currentOrder} order={this.state.order} />
+        <Order
+          currentOrder={this.state.currentOrder}
+          order={this.state.order}
+        />
         {this.state.error && (
           <div>
             <ErrorMessage error={this.state.error} />

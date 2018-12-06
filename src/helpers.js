@@ -1,5 +1,5 @@
-export function formatPrice(cents) {
-  return cents.toLocaleString('en-GB', {
+export function formatPrice(pence) {
+  return pence.toLocaleString('en-GB', {
     style: 'currency',
     currency: 'GBP'
   });
