@@ -1,0 +1,34 @@
+.interface {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  font-family: 'Roboto', sans-serif;
+}
+
+.menu {
+  height: 100%;
+}
+
+.menu,
+.current-order,
+.final-order {
+  font-family: 'Montserrat', sans-serif;
+  padding: 30px;
+}
+
+.menu > form,
+.current-order,
+.final-order {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}
+
+.error-message {
+    width: 100%;
+    background-color: rgb(184, 121, 121);
+    font-size: 20px;
+    padding: 10px;
+    margin: 20px
+}
+

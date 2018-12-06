@@ -1,4 +1,5 @@
 import React from 'react';
+import '../App/App.css';
 export default function SelectDish(props) {
   return (
     <div className="menu">
@@ -9,7 +10,7 @@ export default function SelectDish(props) {
               <legend>{course.toUpperCase()}</legend>
               {props.menu[course].map(dish => {
                 return (
-                  <div>
+                  <div key={dish.id}>
                     <label htmlFor={dish.id} key={dish.id}>
                       <input
                         className={dish.name}
@@ -28,7 +29,7 @@ export default function SelectDish(props) {
             </fieldset>
           );
         })}
-        {props.user < 3 ? <button>Submit</button> : null}
+        {props.user < 3 ? <button>Order</button> : null}
       </form>
     </div>
   );

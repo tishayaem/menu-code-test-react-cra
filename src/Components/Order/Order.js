@@ -1,5 +1,5 @@
 import React from 'react';
-import { formatPrice } from './helpers';
+import { formatPrice } from '../../helpers';
 export default function Order(props) {
   let total;
   if (Object.keys(props.currentOrder).length !== 0) {
@@ -20,9 +20,17 @@ export default function Order(props) {
   );
 
   return (
-    <div className="order">
-      <div className="current-order">{formatPrice(total)} </div>
-      <div className="final-order">{formatPrice(totalForTwo)} </div>
-    </div>
+    <React.Fragment>
+      <div>
+      {props.user < 3 ? <div className="current-order"><h3>Current Order for Guest {props.user}</h3><label>{formatPrice(total)}</label> </div> : null}
+      
+      
+      </div>
+      <div className="final-order">
+      <h3>Final Order</h3>
+      <label>{formatPrice(totalForTwo)}</label>
+      </div>
+    </React.Fragment>
   );
 }
+

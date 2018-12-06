@@ -1,8 +1,9 @@
 import React from 'react';
-import data from './menu-data.json';
-import SelectDish from './SelectDish';
-import Order from './Order';
-import ErrorMessage from './ErrorMessage';
+import data from '../../menu-data.json';
+import SelectDish from '../SelectDish/SelectDish';
+import Order from '../Order/Order';
+import ErrorMessage from '../ErrorMessage/ErrorMessage';
+import './App.css';
 export default class App extends React.Component {
   constructor() {
     super();
@@ -21,7 +22,7 @@ export default class App extends React.Component {
   }
   changeRadio = () => {
     this.setState({ areRadioChecked: null });
-  }
+  };
 
   handleRadio = event => {
     let course = event.target.name;
@@ -30,17 +31,22 @@ export default class App extends React.Component {
     );
     let currentOrder = this.state.currentOrder;
     currentOrder[course] = meal;
-
     this.setState({ currentOrder, error: false });
   };
 
   restaurantRules() {
-    let { currentOrder, error} = this.state;
+    let { currentOrder, error, user, order } = this.state;
 
-    const areTwoOrMoreOrdered = Object.keys(currentOrder).length < 2;
-    const isMainOrdered = !currentOrder.mains;
+    let areTwoOrMoreOrdered = Object.keys(currentOrder).length < 2;
+    let isMainOrdered = !currentOrder.mains;
+   if(user === 2 && order[1].desserts && currentOrder.desserts) {
+      let isCheesecakeavailable =  (order[1].desserts.name === 'Cheesecake' && currentOrder.desserts.name === 'Cheesecake')
+        if (isCheesecakeavailable) {
+          error = 'We are sorry, but cheesecakes are out of stock'
+        }
+    }
 
-    if (areTwoOrMoreOrdered) {
+    else if (areTwoOrMoreOrdered) {
       error = 'Please order at least two dishes';
     } else if (isMainOrdered) {
       error = 'Please order main dish';
@@ -50,7 +56,7 @@ export default class App extends React.Component {
         currentOrder.mains.name === 'Salmon fillet';
 
       if (doesPierreApprove) {
-        error = "We are sorry but you can't have Salmon with prawn!";
+        error = "We are sorry, but you can't have Salmon fillet with prawn cocktail!";
       }
     }
 
@@ -59,7 +65,7 @@ export default class App extends React.Component {
 
   handleSubmit = event => {
     event.preventDefault();
-    let {currentOrder, order, user} = this.state;
+    let { currentOrder, order, user } = this.state;
     let error = this.restaurantRules();
     if (error) {
       currentOrder = {};
@@ -68,17 +74,29 @@ export default class App extends React.Component {
       user += 1;
     }
 
-    this.setState({ order, currentOrder: {}, error, user, areRadioChecked: false });
-
-    setTimeout(
-      () => {this.changeRadio()},0,1);
-    
-  };
+    this.setState({
+      order,
+      currentOrder: {},
+      error,
+      user,
+      areRadioChecked: false
+    });
+    // Temporary workaround to uncheck radio buttons on form submit. 
+    // Must be replaced with better solution to take full control of radio buttons' state.
+    if (user < 3) {setTimeout(() => { this.changeRadio()},0,1)}};
 
   render() {
-    let {menu, areRadioChecked, user, order, currentOrder, error} = this.state
+    let {
+      menu,
+      areRadioChecked,
+      user,
+      order,
+      currentOrder,
+      error
+    } = this.state;
     return (
       <div className="App">
+      <div className="interface">
         <SelectDish
           menu={menu}
           handleRadio={this.handleRadio}
@@ -86,12 +104,12 @@ export default class App extends React.Component {
           areRadioChecked={areRadioChecked}
           user={user}
         />
-        <Order
-          currentOrder={currentOrder}
-          order={order}
-        />
+        <Order currentOrder={currentOrder} order={order} user={user}/>
+        <br/>
+        </div>
         {error && (
-          <div>
+         
+          <div className= "error-message">
             <ErrorMessage error={error} />
           </div>
         )}
