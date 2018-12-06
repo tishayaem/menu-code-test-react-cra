@@ -11,13 +11,18 @@ export default class App extends React.Component {
       user: 1,
       currentOrder: {},
       order: {},
-      error: false
+      error: false,
+      areRadioChecked: null
     };
   }
 
   componentDidMount() {
     this.setState({ menu: data });
   }
+  changeRadio = () => {
+    this.setState({ areRadioChecked: null });
+  }
+
   handleRadio = event => {
     let course = event.target.name;
     let meal = this.state.menu[course].find(
@@ -26,11 +31,11 @@ export default class App extends React.Component {
     let currentOrder = this.state.currentOrder;
     currentOrder[course] = meal;
 
-    this.setState({ currentOrder });
+    this.setState({ currentOrder, error: false });
   };
 
   restaurantRules() {
-    let { currentOrder, error } = this.state;
+    let { currentOrder, error} = this.state;
 
     const areTwoOrMoreOrdered = Object.keys(currentOrder).length < 2;
     const isMainOrdered = !currentOrder.mains;
@@ -40,50 +45,54 @@ export default class App extends React.Component {
     } else if (isMainOrdered) {
       error = 'Please order main dish';
     } else if (currentOrder.starters && currentOrder.mains) {
-      const doesPierreAccept =
+      const doesPierreApprove =
         currentOrder.starters.name === 'Prawn cocktail' &&
         currentOrder.mains.name === 'Salmon fillet';
 
-      if (doesPierreAccept) {
+      if (doesPierreApprove) {
         error = "We are sorry but you can't have Salmon with prawn!";
       }
     }
+
     return error;
   }
 
   handleSubmit = event => {
     event.preventDefault();
-
-    let currentOrder = this.state.currentOrder;
+    let {currentOrder, order, user} = this.state;
     let error = this.restaurantRules();
-    let user = this.state.user;
-    let order = this.state.order;
     if (error) {
       currentOrder = {};
-      order = {};
     } else {
       order[user] = currentOrder;
       user += 1;
     }
 
-    this.setState({ order, currentOrder: {}, error, user });
+    this.setState({ order, currentOrder: {}, error, user, areRadioChecked: false });
+
+    setTimeout(
+      () => {this.changeRadio()},0,1);
+    
   };
 
   render() {
+    let {menu, areRadioChecked, user, order, currentOrder, error} = this.state
     return (
       <div className="App">
         <SelectDish
-          menu={this.state.menu}
+          menu={menu}
           handleRadio={this.handleRadio}
           handleSubmit={this.handleSubmit}
+          areRadioChecked={areRadioChecked}
+          user={user}
         />
         <Order
-          currentOrder={this.state.currentOrder}
-          order={this.state.order}
+          currentOrder={currentOrder}
+          order={order}
         />
-        {this.state.error && (
+        {error && (
           <div>
-            <ErrorMessage error={this.state.error} />
+            <ErrorMessage error={error} />
           </div>
         )}
       </div>
