@@ -70,7 +70,7 @@ export default class App extends React.Component {
           handleRadio={this.handleRadio}
           handleSubmit={this.handleSubmit}
         />
-        <Order currentOrder={this.state.currentOrder} />
+        <Order currentOrder={this.state.currentOrder} order={this.state.order} />
         {this.state.error && (
           <div>
             <ErrorMessage error={this.state.error} />
