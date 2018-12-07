@@ -20,6 +20,8 @@ export default class App extends React.Component {
   componentDidMount() {
     this.setState({ menu: data });
   }
+
+  // Switch to uncontrolled buttons state
   changeRadio = () => {
     this.setState({ areRadioChecked: null });
   };
