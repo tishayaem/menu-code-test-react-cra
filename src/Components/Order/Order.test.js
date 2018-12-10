@@ -2,7 +2,6 @@ import React from 'react';
 import Order from './Order';
 
 describe('Order', () => {
-  // Move dummy data to a separate file
   const currentOrder = {
     starters: {
       id: 1,
@@ -39,13 +38,31 @@ describe('Order', () => {
       }
     }
   };
-  const wrapper = shallow(<Order currentOrder={currentOrder} order={order} />);
+  describe('if order for second guest hasn"t been submitted', () => {
+    // Move dummy data to a separate file
 
-  it('renders properly', () => {
-    expect(wrapper).toMatchSnapshot();
+    let user = 1;
+    let wrapper = shallow(
+      <Order currentOrder={currentOrder} order={order} user={user} />
+    );
+
+    it('renders properly', () => {
+      expect(wrapper).toMatchSnapshot();
+    });
+
+    it('renders the correct message', () => {
+      expect(wrapper.find('.final-order').text()).toMatch('£20.00');
+      expect(wrapper.find('.final-order').text()).toMatch('£20.00');
+    });
   });
 
-  it('renders the correct message', () => {
-    expect(wrapper.find('.final-order').text()).toMatch('£20.00');
+  describe('if order for second guest has been submitted', () => {
+    let user = 3;
+    let wrapper = shallow(
+      <Order currentOrder={currentOrder} order={order} user={user} />
+    );
+    it('doesn"t show current order amount, ', () => {
+      expect(wrapper.find('.current-order').exists()).toBeFalsy();
+    });
   });
 });

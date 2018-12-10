@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Order renders properly 1`] = `
+exports[`Order if order for second guest hasn"t been submitted renders properly 1`] = `
 ShallowWrapper {
   Symbol(enzyme.__root__): [Circular],
   Symbol(enzyme.__unrendered__): <Order
@@ -44,6 +44,7 @@ ShallowWrapper {
         },
       }
     }
+    user={1}
   />,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
@@ -59,7 +60,20 @@ ShallowWrapper {
     "nodeType": "function",
     "props": Object {
       "children": Array [
-        <div />,
+        <div>
+          <div
+            className="current-order"
+          >
+            <h3>
+              Order for Guest 
+              1
+            </h3>
+            <label>
+              £20.00
+            </label>
+             
+          </div>
+        </div>,
         <div
           className="final-order"
         >
@@ -79,10 +93,71 @@ ShallowWrapper {
         "key": undefined,
         "nodeType": "host",
         "props": Object {
-          "children": null,
+          "children": <div
+            className="current-order"
+          >
+            <h3>
+              Order for Guest 
+              1
+            </h3>
+            <label>
+              £20.00
+            </label>
+             
+          </div>,
         },
         "ref": null,
-        "rendered": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <h3>
+                Order for Guest 
+                1
+              </h3>,
+              <label>
+                £20.00
+              </label>,
+              " ",
+            ],
+            "className": "current-order",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  "Order for Guest ",
+                  1,
+                ],
+              },
+              "ref": null,
+              "rendered": Array [
+                "Order for Guest ",
+                1,
+              ],
+              "type": "h3",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "£20.00",
+              },
+              "ref": null,
+              "rendered": "£20.00",
+              "type": "label",
+            },
+            " ",
+          ],
+          "type": "div",
+        },
         "type": "div",
       },
       Object {
@@ -137,7 +212,20 @@ ShallowWrapper {
       "nodeType": "function",
       "props": Object {
         "children": Array [
-          <div />,
+          <div>
+            <div
+              className="current-order"
+            >
+              <h3>
+                Order for Guest 
+                1
+              </h3>
+              <label>
+                £20.00
+              </label>
+               
+            </div>
+          </div>,
           <div
             className="final-order"
           >
@@ -157,10 +245,71 @@ ShallowWrapper {
           "key": undefined,
           "nodeType": "host",
           "props": Object {
-            "children": null,
+            "children": <div
+              className="current-order"
+            >
+              <h3>
+                Order for Guest 
+                1
+              </h3>
+              <label>
+                £20.00
+              </label>
+               
+            </div>,
           },
           "ref": null,
-          "rendered": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <h3>
+                  Order for Guest 
+                  1
+                </h3>,
+                <label>
+                  £20.00
+                </label>,
+                " ",
+              ],
+              "className": "current-order",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    "Order for Guest ",
+                    1,
+                  ],
+                },
+                "ref": null,
+                "rendered": Array [
+                  "Order for Guest ",
+                  1,
+                ],
+                "type": "h3",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "£20.00",
+                },
+                "ref": null,
+                "rendered": "£20.00",
+                "type": "label",
+              },
+              " ",
+            ],
+            "type": "div",
+          },
           "type": "div",
         },
         Object {
